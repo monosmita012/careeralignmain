@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temp
+*.tmp
+*.temp
+
+ven/
+
+# Large raw dataset - kept locally, not committed
+backend/data/raw/train-00000-of-00001.parquet
+
+# Experimental ML artifacts - not used by the current API
+backend/models/role_classifier_balanced_final_evaluation.joblib
+backend/models/tfidf_vectorizer_balanced_final_evaluation.joblib

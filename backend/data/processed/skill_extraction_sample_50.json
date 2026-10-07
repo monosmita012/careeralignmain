@@ -1,0 +1,892 @@
+{
+  "source": "backend/data/processed/careeralign_seven_class_clean.parquet",
+  "sample_size": 50,
+  "sampling": {
+    "method": "uniform sample without replacement over row positions",
+    "random_seed": 42,
+    "sampled_row_positions": [
+      1351,
+      1439,
+      1817,
+      1887,
+      1951,
+      1992,
+      2711,
+      3500,
+      3864,
+      4261,
+      4812,
+      5862,
+      7512,
+      7848,
+      8519,
+      9158,
+      9281,
+      9389,
+      9445,
+      9532,
+      9538,
+      10590,
+      10860,
+      11138,
+      11548,
+      11745,
+      13381,
+      13631,
+      13842,
+      14367,
+      14751,
+      14842,
+      15181,
+      15567,
+      16061,
+      16104,
+      16366,
+      16497,
+      16545,
+      16633,
+      17420,
+      17531,
+      17772,
+      18160,
+      18180,
+      18805,
+      18927,
+      19618,
+      20570,
+      20641
+    ],
+    "source_row_groups": 1,
+    "note": "One row group was decoded to access random row positions; skill extraction was run only on these 50 sampled descriptions."
+  },
+  "records": [
+    {
+      "id": "201c076b-60e5-547e-a5ee-cad0a225f355",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation QA Engineer (Cypress)",
+      "extracted_skills": [
+        "Cypress",
+        "REST API"
+      ]
+    },
+    {
+      "id": "7c2668af-304b-5cfa-a375-d82112dcfba1",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation QA Engineer (Java)",
+      "extracted_skills": [
+        "Test Automation",
+        "Selenium",
+        "Java",
+        "JUnit",
+        "Linux",
+        "Jenkins",
+        "Git"
+      ]
+    },
+    {
+      "id": "768eadcb-2012-55e0-a910-098969926b49",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation QA Team Lead",
+      "extracted_skills": [
+        "SQL",
+        "C#",
+        ".NET",
+        "MongoDB",
+        "Apache Kafka",
+        "Agile",
+        "Scrum",
+        "Jira"
+      ]
+    },
+    {
+      "id": "40ab0726-9b8f-5dc6-b0ea-8f9e182365f9",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation Team Lead",
+      "extracted_skills": [
+        "Test Automation",
+        "Node.js",
+        "Redis",
+        "AWS",
+        "Agile",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "e579da72-671e-59e3-b42d-609221939d04",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation Testing Engineer",
+      "extracted_skills": [
+        "Java",
+        "PostgreSQL",
+        "Angular",
+        "Python",
+        "Test Automation"
+      ]
+    },
+    {
+      "id": "a46aa952-2fb4-5024-b0b5-c70a2b4d0ebb",
+      "career_role": "System Administrator",
+      "Position": "AWS engineer",
+      "extracted_skills": [
+        "AWS"
+      ]
+    },
+    {
+      "id": "a018a65d-5d8c-5025-9271-e1edc1a398e6",
+      "career_role": "Business Analyst",
+      "Position": "Business Analyst",
+      "extracted_skills": [
+        ".NET",
+        "Jira",
+        "SQL",
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "id": "1aad0cde-b117-5636-a01b-3a3197727c96",
+      "career_role": "Business Analyst",
+      "Position": "Business Analyst (Automotive Domain)",
+      "extracted_skills": []
+    },
+    {
+      "id": "ea6a2b9c-5e99-5c80-925b-2f7fe9d0cdd0",
+      "career_role": "Business Analyst",
+      "Position": "Business Analyst / Regulatory Reporting (work in the office USA)",
+      "extracted_skills": [
+        "SQL",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "e4a9809e-5328-5ea0-9e75-8c8c9e430238",
+      "career_role": "Project Manager",
+      "Position": "Channel Manager",
+      "extracted_skills": [
+        "Jira",
+        "HTML"
+      ]
+    },
+    {
+      "id": "74625bea-0221-54e8-b1b1-e0991032ffef",
+      "career_role": "Data Analyst",
+      "Position": "Data and Data Visualization Analyst",
+      "extracted_skills": [
+        "SQL",
+        "Looker",
+        "Tableau",
+        "Snowflake",
+        "Databricks"
+      ]
+    },
+    {
+      "id": "dd53451a-ad90-58fe-8581-68e47a76d017",
+      "career_role": "Product Manager",
+      "Position": "Director of Product and Accounts",
+      "extracted_skills": [
+        "Jira"
+      ]
+    },
+    {
+      "id": "c366fa84-aaf1-56b9-b818-ff23b7eb61f9",
+      "career_role": "System Administrator",
+      "Position": "Junior ERP System Administrator",
+      "extracted_skills": []
+    },
+    {
+      "id": "4b7765a8-961a-5d8c-b2f2-5e28e771eb65",
+      "career_role": "Project Manager",
+      "Position": "Junior Project Manager",
+      "extracted_skills": [
+        "Agile",
+        "Scrum",
+        "Project Management"
+      ]
+    },
+    {
+      "id": "bf8dbf46-67d5-5af1-8c78-11ffc294cfc3",
+      "career_role": "QA Automation Engineer",
+      "Position": "Lead Test Automation Engineer (C#)",
+      "extracted_skills": [
+        "Scrum",
+        "Test Automation",
+        "C#",
+        ".NET",
+        "Agile"
+      ]
+    },
+    {
+      "id": "4d972e3c-d5c3-5df9-b08a-472cfa9343d4",
+      "career_role": "Business Analyst",
+      "Position": "Middle Business Analyst",
+      "extracted_skills": [
+        "Business Analysis",
+        "Jira"
+      ]
+    },
+    {
+      "id": "5d8daaaf-0fa8-5d52-b723-cfd308bb2a83",
+      "career_role": "QA Automation Engineer",
+      "Position": "Middle+ C# Automation QA",
+      "extracted_skills": [
+        "C#",
+        "Selenium",
+        "Bash",
+        "SQL"
+      ]
+    },
+    {
+      "id": "7752ba78-b00e-5e51-896c-00b25b47ddf5",
+      "career_role": "QA Automation Engineer",
+      "Position": "Middle Java Automation QA",
+      "extracted_skills": [
+        "Java",
+        "C#",
+        "Test Automation",
+        "Selenium",
+        "REST API"
+      ]
+    },
+    {
+      "id": "2091e16e-d878-51bd-be35-8e843a33be62",
+      "career_role": "Data Engineer",
+      "Position": "Middle or Senior Data Engineer",
+      "extracted_skills": [
+        "Google Cloud",
+        "Tableau",
+        "Looker",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Apache Spark",
+        "Google BigQuery",
+        "Machine Learning",
+        "Docker",
+        "Apache Kafka",
+        "Redis",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "7970dfb7-677e-5bde-94e7-8997cb1b132f",
+      "career_role": "Project Manager",
+      "Position": "Middle Project Manager",
+      "extracted_skills": [
+        "Project Management",
+        "Agile"
+      ]
+    },
+    {
+      "id": "1803fde5-e439-5c08-a2f4-262ad223956b",
+      "career_role": "Project Manager",
+      "Position": "Middle Project Manager",
+      "extracted_skills": [
+        "Scrum",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "AWS"
+      ]
+    },
+    {
+      "id": "a38e75f8-8add-50b0-88db-f70905bd42df",
+      "career_role": "QA Automation Engineer",
+      "Position": "Miiddle QA engineer",
+      "extracted_skills": [
+        "JavaScript",
+        "Node.js",
+        "Flutter",
+        "Jest",
+        "Cypress",
+        "Selenium"
+      ]
+    },
+    {
+      "id": "6f483e8c-d1ad-5f5b-856b-7565b0ebf931",
+      "career_role": "Project Manager",
+      "Position": "Outstaff Manager",
+      "extracted_skills": []
+    },
+    {
+      "id": "7f5374fc-ca6e-5d6b-a36e-678cf6220e8c",
+      "career_role": "Business Analyst",
+      "Position": "Product Analyst",
+      "extracted_skills": [
+        "SQL",
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "id": "015f470d-c2bd-537a-95d2-186479e5f820",
+      "career_role": "Product Manager",
+      "Position": "Product Manager",
+      "extracted_skills": [
+        "Agile",
+        "Scrum"
+      ]
+    },
+    {
+      "id": "853e24b7-29fd-5f8d-888c-9165aec3fd29",
+      "career_role": "Product Manager",
+      "Position": "Product Manager / Head of Product",
+      "extracted_skills": [
+        "Product Management",
+        "Artificial Intelligence",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "43d1fd5d-0c7d-518d-8d44-3c0d8bcb342e",
+      "career_role": "Project Manager",
+      "Position": "Project Manager",
+      "extracted_skills": [
+        "Project Management"
+      ]
+    },
+    {
+      "id": "f6e9eb8c-b8ef-526b-9899-f5b74e0e3730",
+      "career_role": "Project Manager",
+      "Position": "Project Manager",
+      "extracted_skills": [
+        "Project Management",
+        "Scrum",
+        "Jira",
+        "Business Analysis"
+      ]
+    },
+    {
+      "id": "d9bf3cff-b58c-5dea-a415-e60cb060221c",
+      "career_role": "Project Manager",
+      "Position": "Project manager /Business Analyst",
+      "extracted_skills": [
+        "Project Management",
+        "Jira",
+        "Business Analysis",
+        "Agile"
+      ]
+    },
+    {
+      "id": "8ae1c1d8-9aad-5341-ad38-f5cf2ef76409",
+      "career_role": "Data Engineer",
+      "Position": "Python Data Engineer",
+      "extracted_skills": [
+        "Python",
+        "SQL",
+        "Apache Kafka",
+        "Agile",
+        "Linux"
+      ]
+    },
+    {
+      "id": "38c1a68e-02a2-5725-846a-06547c597d84",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Automation Engineer",
+      "extracted_skills": [
+        "Java",
+        "Linux",
+        "SQL",
+        "Agile",
+        "Scrum",
+        "Python"
+      ]
+    },
+    {
+      "id": "d7fb3f9d-ee1f-5ec7-b757-a8bd2c727f17",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Automation Engineer",
+      "extracted_skills": [
+        "SQL",
+        "Scrum",
+        "Kubernetes",
+        "Test Automation",
+        "Linux",
+        "Java"
+      ]
+    },
+    {
+      "id": "43dd1e73-bbb1-54e0-89c8-467d7c44ab8a",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Automation Engineer (Python)",
+      "extracted_skills": [
+        "Agile",
+        "Scrum",
+        "Python",
+        "Selenium",
+        "iOS",
+        "Android",
+        "REST API",
+        "Test Automation"
+      ]
+    },
+    {
+      "id": "b1fb07f2-f3dc-548a-9c9a-0783e435a2d6",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Engineer",
+      "extracted_skills": [
+        "SQL"
+      ]
+    },
+    {
+      "id": "111f8555-e265-50b7-88f1-bf4fa505be78",
+      "career_role": "System Administrator",
+      "Position": "Rinf Tech: Transition Manager",
+      "extracted_skills": []
+    },
+    {
+      "id": "dfdb899a-fecd-5459-b77a-0c7d7b398215",
+      "career_role": "Business Analyst",
+      "Position": "Salesforce Consultant",
+      "extracted_skills": []
+    },
+    {
+      "id": "f8474b1f-de98-5826-b497-0a9368081f6c",
+      "career_role": "QA Automation Engineer",
+      "Position": "SDET (Java)",
+      "extracted_skills": [
+        "Test Automation",
+        "Java",
+        "JUnit",
+        "Selenium",
+        "SQL",
+        "Git",
+        "Agile",
+        "Scrum",
+        "Jenkins",
+        "Terraform",
+        "Kubernetes",
+        "Docker"
+      ]
+    },
+    {
+      "id": "f9004926-444e-56dc-b511-0196d4270664",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior AQA Engineer (Python)",
+      "extracted_skills": [
+        "Agile",
+        "Test Automation",
+        "Python",
+        "Django",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Selenium",
+        "Flask",
+        "Node.js",
+        "CSS",
+        "HTML",
+        "Git",
+        "React Native",
+        "REST API",
+        "Postman",
+        "Jenkins",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "id": "16850b1b-089a-5cda-a611-ddd91ec52894",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior AQA (Python)",
+      "extracted_skills": [
+        "Python",
+        "Flutter",
+        "Agile",
+        "Kubernetes",
+        "AWS",
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "id": "58d5f1c2-c081-59f9-817d-63eef15767ad",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior Automation QA",
+      "extracted_skills": [
+        "Jira",
+        "REST API",
+        "Selenium",
+        "Cypress"
+      ]
+    },
+    {
+      "id": "9eb37cd0-1b7f-5d13-9114-476e6d03970d",
+      "career_role": "Data Analyst",
+      "Position": "Senior Data Analyst",
+      "extracted_skills": [
+        "SQL",
+        "Python",
+        "JavaScript",
+        "Machine Learning",
+        "ETL"
+      ]
+    },
+    {
+      "id": "352385cc-d015-5496-8b7c-c32bc567460c",
+      "career_role": "Data Engineer",
+      "Position": "Senior Data Engineer",
+      "extracted_skills": [
+        "SQL",
+        "Python",
+        "MySQL",
+        "PostgreSQL",
+        "Microsoft Azure",
+        "AWS",
+        "Google Cloud",
+        "Snowflake",
+        "Apache Airflow"
+      ]
+    },
+    {
+      "id": "30f553fe-4377-5ad1-adbd-33b7d58cb277",
+      "career_role": "System Administrator",
+      "Position": "Senior IT infrastucture engineer",
+      "extracted_skills": [
+        "Linux",
+        "MySQL",
+        "SQL",
+        "PostgreSQL",
+        "Docker"
+      ]
+    },
+    {
+      "id": "b19099ca-6637-56dc-a640-30d995d2a5d7",
+      "career_role": "Product Manager",
+      "Position": "Senior Product Manager (Solutions)",
+      "extracted_skills": [
+        "Scrum",
+        "Agile",
+        "Product Management"
+      ]
+    },
+    {
+      "id": "18b2c592-b8ad-52dd-b565-75c504e63966",
+      "career_role": "Product Manager",
+      "Position": "Senior Product Owner",
+      "extracted_skills": [
+        "PHP",
+        "Next.js",
+        "React",
+        "React Native",
+        "Docker",
+        "AWS",
+        "GitLab"
+      ]
+    },
+    {
+      "id": "f17ee0a4-232a-5098-a84b-028decf41f71",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior QA Engineer",
+      "extracted_skills": [
+        "Test Automation",
+        "Java",
+        "REST API",
+        "SQL",
+        "MongoDB",
+        "Redis",
+        "Agile",
+        "Jira",
+        "Git"
+      ]
+    },
+    {
+      "id": "87a42208-bc8e-5940-89c1-3635ca55b058",
+      "career_role": "Project Manager",
+      "Position": "Senior Scrum Master",
+      "extracted_skills": [
+        "Scrum",
+        "Agile",
+        "Jira"
+      ]
+    },
+    {
+      "id": "b557713d-fbf5-5ea2-a608-809c3f8499fa",
+      "career_role": "Data Engineer",
+      "Position": "Sr. Sensor Simulation Engineer",
+      "extracted_skills": [
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "id": "eb36f910-3d42-519c-bb6f-14865306eede",
+      "career_role": "Project Manager",
+      "Position": "Technical Project Manager",
+      "extracted_skills": [
+        "Project Management",
+        "Agile",
+        "Scrum"
+      ]
+    },
+    {
+      "id": "8b853223-7ebe-5382-90d4-d9cab8f16757",
+      "career_role": "System Administrator",
+      "Position": "Technical Support Engineer",
+      "extracted_skills": [
+        "Linux",
+        "Java"
+      ]
+    }
+  ],
+  "statistics": {
+    "records_with_at_least_one_extracted_skill": 45,
+    "records_with_zero_extracted_skills": 5,
+    "total_extracted_skill_mentions_deduplicated_per_record": 223,
+    "unique_canonical_skills_observed": 63,
+    "top_extracted_skills_by_record_frequency": [
+      {
+        "skill": "Agile",
+        "record_count": 17
+      },
+      {
+        "skill": "SQL",
+        "record_count": 16
+      },
+      {
+        "skill": "Scrum",
+        "record_count": 13
+      },
+      {
+        "skill": "Test Automation",
+        "record_count": 10
+      },
+      {
+        "skill": "Jira",
+        "record_count": 10
+      },
+      {
+        "skill": "Python",
+        "record_count": 10
+      },
+      {
+        "skill": "Selenium",
+        "record_count": 8
+      },
+      {
+        "skill": "Java",
+        "record_count": 8
+      },
+      {
+        "skill": "AWS",
+        "record_count": 7
+      },
+      {
+        "skill": "REST API",
+        "record_count": 6
+      },
+      {
+        "skill": "Linux",
+        "record_count": 6
+      },
+      {
+        "skill": "Project Management",
+        "record_count": 6
+      },
+      {
+        "skill": "Docker",
+        "record_count": 5
+      },
+      {
+        "skill": "Jenkins",
+        "record_count": 4
+      },
+      {
+        "skill": "Git",
+        "record_count": 4
+      },
+      {
+        "skill": "C#",
+        "record_count": 4
+      },
+      {
+        "skill": "Node.js",
+        "record_count": 4
+      },
+      {
+        "skill": "PostgreSQL",
+        "record_count": 4
+      },
+      {
+        "skill": "JavaScript",
+        "record_count": 4
+      },
+      {
+        "skill": "Cypress",
+        "record_count": 3
+      },
+      {
+        "skill": ".NET",
+        "record_count": 3
+      },
+      {
+        "skill": "MongoDB",
+        "record_count": 3
+      },
+      {
+        "skill": "Apache Kafka",
+        "record_count": 3
+      },
+      {
+        "skill": "Redis",
+        "record_count": 3
+      },
+      {
+        "skill": "Business Analysis",
+        "record_count": 3
+      },
+      {
+        "skill": "Machine Learning",
+        "record_count": 3
+      },
+      {
+        "skill": "Kubernetes",
+        "record_count": 3
+      },
+      {
+        "skill": "JUnit",
+        "record_count": 2
+      },
+      {
+        "skill": "Angular",
+        "record_count": 2
+      },
+      {
+        "skill": "Microsoft Excel",
+        "record_count": 2
+      },
+      {
+        "skill": "Power BI",
+        "record_count": 2
+      },
+      {
+        "skill": "HTML",
+        "record_count": 2
+      },
+      {
+        "skill": "Looker",
+        "record_count": 2
+      },
+      {
+        "skill": "Tableau",
+        "record_count": 2
+      },
+      {
+        "skill": "Snowflake",
+        "record_count": 2
+      },
+      {
+        "skill": "Google Cloud",
+        "record_count": 2
+      },
+      {
+        "skill": "TypeScript",
+        "record_count": 2
+      },
+      {
+        "skill": "Flutter",
+        "record_count": 2
+      },
+      {
+        "skill": "Product Management",
+        "record_count": 2
+      },
+      {
+        "skill": "iOS",
+        "record_count": 2
+      },
+      {
+        "skill": "Android",
+        "record_count": 2
+      },
+      {
+        "skill": "React",
+        "record_count": 2
+      },
+      {
+        "skill": "React Native",
+        "record_count": 2
+      },
+      {
+        "skill": "MySQL",
+        "record_count": 2
+      },
+      {
+        "skill": "Databricks",
+        "record_count": 1
+      },
+      {
+        "skill": "Bash",
+        "record_count": 1
+      },
+      {
+        "skill": "Apache Spark",
+        "record_count": 1
+      },
+      {
+        "skill": "Google BigQuery",
+        "record_count": 1
+      },
+      {
+        "skill": "Express.js",
+        "record_count": 1
+      },
+      {
+        "skill": "Jest",
+        "record_count": 1
+      },
+      {
+        "skill": "Artificial Intelligence",
+        "record_count": 1
+      },
+      {
+        "skill": "Terraform",
+        "record_count": 1
+      },
+      {
+        "skill": "Django",
+        "record_count": 1
+      },
+      {
+        "skill": "Flask",
+        "record_count": 1
+      },
+      {
+        "skill": "CSS",
+        "record_count": 1
+      },
+      {
+        "skill": "Postman",
+        "record_count": 1
+      },
+      {
+        "skill": "ETL",
+        "record_count": 1
+      },
+      {
+        "skill": "Microsoft Azure",
+        "record_count": 1
+      },
+      {
+        "skill": "Apache Airflow",
+        "record_count": 1
+      },
+      {
+        "skill": "PHP",
+        "record_count": 1
+      },
+      {
+        "skill": "Next.js",
+        "record_count": 1
+      },
+      {
+        "skill": "GitLab",
+        "record_count": 1
+      },
+      {
+        "skill": "C++",
+        "record_count": 1
+      }
+    ]
+  }
+}

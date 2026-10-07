@@ -1,0 +1,442 @@
+{
+  "experiment": "MultinomialNB inverse-frequency class-balanced sample weights",
+  "production_model_replaced": false,
+  "training": {
+    "train_rows": 16956,
+    "test_rows": 4239,
+    "class_order": [
+      "Data Analyst",
+      "Data Engineer",
+      "Business Analyst",
+      "Project Manager",
+      "Product Manager",
+      "QA Automation Engineer",
+      "System Administrator"
+    ],
+    "train_class_counts": {
+      "Data Analyst": 614,
+      "Data Engineer": 1161,
+      "Business Analyst": 2943,
+      "Project Manager": 3694,
+      "Product Manager": 1551,
+      "QA Automation Engineer": 5638,
+      "System Administrator": 1355
+    },
+    "weight_formula": "N / (number_of_classes * class_count)",
+    "class_weights": {
+      "Data Analyst": 3.9450907398790136,
+      "Data Engineer": 2.086378737541528,
+      "Business Analyst": 0.8230668414154653,
+      "Project Manager": 0.6557351689999227,
+      "Product Manager": 1.5617573915446257,
+      "QA Automation Engineer": 0.4296356357370901,
+      "System Administrator": 1.787664733790195
+    },
+    "vectorizer_source": "existing saved TF-IDF fitted on training split",
+    "vectorizer_config": {
+      "lowercase": true,
+      "strip_accents": "unicode",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.95,
+      "sublinear_tf": true
+    },
+    "test_vectorization": "transform only; no test fitting",
+    "tfidf_vocabulary_size": 318291,
+    "sample_weight_min": 0.4296356357370901,
+    "sample_weight_max": 3.9450907398790136,
+    "classifier": "sklearn.naive_bayes.MultinomialNB()",
+    "scikit_learn_version": "1.9.1"
+  },
+  "baseline": {
+    "accuracy": 0.6112290634583628,
+    "macro_precision": 0.7378624523581159,
+    "macro_recall": 0.34593779287537546,
+    "macro_f1": 0.3208823890136764,
+    "weighted_precision": 0.73062680989927,
+    "weighted_recall": 0.6112290634583628,
+    "weighted_f1": 0.5198755765635193,
+    "per_class": {
+      "Data Analyst": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 153
+      },
+      "Data Engineer": {
+        "precision": 1.0,
+        "recall": 0.006896551724137931,
+        "f1": 0.0136986301369863,
+        "support": 290
+      },
+      "Business Analyst": {
+        "precision": 0.8938992042440318,
+        "recall": 0.4578804347826087,
+        "f1": 0.605570530098832,
+        "support": 736
+      },
+      "Project Manager": {
+        "precision": 0.7604456824512534,
+        "recall": 0.8863636363636364,
+        "f1": 0.8185907046476761,
+        "support": 924
+      },
+      "Product Manager": {
+        "precision": 1.0,
+        "recall": 0.002577319587628866,
+        "f1": 0.005141388174807198,
+        "support": 388
+      },
+      "QA Automation Engineer": {
+        "precision": 0.5106922798115259,
+        "recall": 1.0,
+        "f1": 0.6761036468330134,
+        "support": 1409
+      },
+      "System Administrator": {
+        "precision": 1.0,
+        "recall": 0.06784660766961652,
+        "f1": 0.1270718232044199,
+        "support": 339
+      }
+    },
+    "confusion_matrix": {
+      "class_order": [
+        "Data Analyst",
+        "Data Engineer",
+        "Business Analyst",
+        "Project Manager",
+        "Product Manager",
+        "QA Automation Engineer",
+        "System Administrator"
+      ],
+      "rows_actual_columns_predicted": [
+        [
+          0,
+          0,
+          15,
+          5,
+          0,
+          133,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          1,
+          0,
+          286,
+          0
+        ],
+        [
+          0,
+          0,
+          337,
+          79,
+          0,
+          320,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          819,
+          0,
+          97,
+          0
+        ],
+        [
+          0,
+          0,
+          16,
+          169,
+          1,
+          202,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1409,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          312,
+          23
+        ]
+      ]
+    },
+    "prediction_distribution": {
+      "Data Analyst": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Data Engineer": {
+        "count": 2,
+        "percentage": 0.04718093890068412
+      },
+      "Business Analyst": {
+        "count": 377,
+        "percentage": 8.893606982778959
+      },
+      "Project Manager": {
+        "count": 1077,
+        "percentage": 25.4069355980184
+      },
+      "Product Manager": {
+        "count": 1,
+        "percentage": 0.02359046945034206
+      },
+      "QA Automation Engineer": {
+        "count": 2759,
+        "percentage": 65.08610521349375
+      },
+      "System Administrator": {
+        "count": 23,
+        "percentage": 0.5425807973578675
+      }
+    },
+    "qa_false_positives": 1350,
+    "qa_true_positives": 1409,
+    "qa_false_positive_share_of_test_pct": 31.84713375796178,
+    "qa_false_discovery_rate_pct": 48.93077201884741
+  },
+  "balanced_experiment": {
+    "accuracy": 0.8641188959660298,
+    "macro_precision": 0.8023060445085693,
+    "macro_recall": 0.837623225404826,
+    "macro_f1": 0.8123135509570275,
+    "weighted_precision": 0.8841405974626566,
+    "weighted_recall": 0.8641188959660298,
+    "weighted_f1": 0.8691866971096281,
+    "per_class": {
+      "Data Analyst": {
+        "precision": 0.5093457943925234,
+        "recall": 0.7124183006535948,
+        "f1": 0.5940054495912807,
+        "support": 153
+      },
+      "Data Engineer": {
+        "precision": 0.7664670658682635,
+        "recall": 0.8827586206896552,
+        "f1": 0.8205128205128205,
+        "support": 290
+      },
+      "Business Analyst": {
+        "precision": 0.9078498293515358,
+        "recall": 0.7228260869565217,
+        "f1": 0.8048411497730711,
+        "support": 736
+      },
+      "Project Manager": {
+        "precision": 0.9224441833137486,
+        "recall": 0.8495670995670995,
+        "f1": 0.8845070422535212,
+        "support": 924
+      },
+      "Product Manager": {
+        "precision": 0.5860805860805861,
+        "recall": 0.8247422680412371,
+        "f1": 0.6852248394004282,
+        "support": 388
+      },
+      "QA Automation Engineer": {
+        "precision": 0.9790007241129616,
+        "recall": 0.9595457771469127,
+        "f1": 0.9691756272401434,
+        "support": 1409
+      },
+      "System Administrator": {
+        "precision": 0.944954128440367,
+        "recall": 0.911504424778761,
+        "f1": 0.9279279279279279,
+        "support": 339
+      }
+    },
+    "confusion_matrix": {
+      "class_order": [
+        "Data Analyst",
+        "Data Engineer",
+        "Business Analyst",
+        "Project Manager",
+        "Product Manager",
+        "QA Automation Engineer",
+        "System Administrator"
+      ],
+      "rows_actual_columns_predicted": [
+        [
+          109,
+          24,
+          7,
+          2,
+          8,
+          0,
+          3
+        ],
+        [
+          21,
+          256,
+          3,
+          0,
+          2,
+          3,
+          5
+        ],
+        [
+          69,
+          16,
+          532,
+          19,
+          92,
+          6,
+          2
+        ],
+        [
+          5,
+          2,
+          22,
+          785,
+          99,
+          8,
+          3
+        ],
+        [
+          5,
+          2,
+          17,
+          36,
+          320,
+          5,
+          3
+        ],
+        [
+          4,
+          21,
+          3,
+          7,
+          20,
+          1352,
+          2
+        ],
+        [
+          1,
+          13,
+          2,
+          2,
+          5,
+          7,
+          309
+        ]
+      ]
+    },
+    "prediction_distribution": {
+      "Data Analyst": {
+        "count": 214,
+        "percentage": 5.048360462373201
+      },
+      "Data Engineer": {
+        "count": 334,
+        "percentage": 7.879216796414249
+      },
+      "Business Analyst": {
+        "count": 586,
+        "percentage": 13.82401509790045
+      },
+      "Project Manager": {
+        "count": 851,
+        "percentage": 20.075489502241094
+      },
+      "Product Manager": {
+        "count": 546,
+        "percentage": 12.880396319886767
+      },
+      "QA Automation Engineer": {
+        "count": 1381,
+        "percentage": 32.57843831092239
+      },
+      "System Administrator": {
+        "count": 327,
+        "percentage": 7.714083510261855
+      }
+    },
+    "qa_false_positives": 29,
+    "qa_true_positives": 1352,
+    "qa_false_positive_share_of_test_pct": 0.6841236140599197,
+    "qa_false_discovery_rate_pct": 2.0999275887038378
+  },
+  "metric_differences_balanced_minus_baseline": {
+    "accuracy": 0.25288983250766695,
+    "macro_precision": 0.06444359215045348,
+    "macro_recall": 0.4916854325294506,
+    "macro_f1": 0.4914311619433511,
+    "weighted_precision": 0.15351378756338663,
+    "weighted_recall": 0.25288983250766695,
+    "weighted_f1": 0.3493111205461088
+  },
+  "per_class_differences_balanced_minus_baseline": {
+    "Data Analyst": {
+      "precision": 0.5093457943925234,
+      "recall": 0.7124183006535948,
+      "f1": 0.5940054495912807
+    },
+    "Data Engineer": {
+      "precision": -0.23353293413173648,
+      "recall": 0.8758620689655172,
+      "f1": 0.8068141903758341
+    },
+    "Business Analyst": {
+      "precision": 0.013950625107504,
+      "recall": 0.264945652173913,
+      "f1": 0.1992706196742391
+    },
+    "Project Manager": {
+      "precision": 0.16199850086249512,
+      "recall": -0.03679653679653683,
+      "f1": 0.06591633760584503
+    },
+    "Product Manager": {
+      "precision": -0.4139194139194139,
+      "recall": 0.8221649484536082,
+      "f1": 0.680083451225621
+    },
+    "QA Automation Engineer": {
+      "precision": 0.4683084443014357,
+      "recall": -0.04045422285308731,
+      "f1": 0.29307198040713
+    },
+    "System Administrator": {
+      "precision": -0.05504587155963303,
+      "recall": 0.8436578171091446,
+      "f1": 0.800856104723508
+    }
+  },
+  "hypothesis_checks": {
+    "balanced_predicts_fewer_QA": true,
+    "minority_recall_improved": {
+      "Data Analyst": true,
+      "Data Engineer": true,
+      "Product Manager": true,
+      "System Administrator": true
+    },
+    "macro_f1_improved": true,
+    "qa_false_positives_reduced": true
+  },
+  "reproducibility": {
+    "second_independent_fit_predictions_identical": true,
+    "identical_prediction_count": 4239,
+    "total_test_records": 4239
+  }
+}

@@ -1,0 +1,1124 @@
+﻿confusion_pair,record_id,actual_source_label,actual_careeralign_class,predicted_class,position,original_long_description,description_character_count,predicted_class_strong_terminology_present,actual_class_strong_terminology_present,neutral_job_summary,human_adjudication,allowed_human_adjudication_values
+Data Analyst → QA Automation Engineer,4e861c1c-c269-505c-a69a-e1b504ef0f14,Data Analyst,Data Analyst,QA Automation Engineer,Senior Data Analyst / Engineer,"The Data Quality Engineer is a member of the Customer Quality Management team. This individual will lead and drive the sprint and release process for data source acquisition and analytical tool development.
+Responsibilities:
+Perform data extraction, transform, and load of data from multiple worldwide sources
+Generate scripts to schedule and automate data loads
+Analyze extracted data and make recommendations on ways to use individual data elements within applications
+Build mining and parse scripts/algorithms for machine service data captures; this work is used by product engineering for issue isolation
+Isolation of data used by the quality engineering to validate commodity attach rates.
+Mandatory Skills Description:
+Bachelor's Degree
+5+ years of job-related experience
+Code development experience with the following languages:
+
+1) Linux/Bash scripting
+2) SQL
+3) Python
+Agile Methodology (Scrum Master) experience
+Nice-to-Have Skills:
+In depth knowledge of Data Center HW products
+Application skills with Qlik, Jira, and Excel
+Languages:
+English: B2 Upper Intermediate",1096,True,False,"Leads data-quality work, automates data ingestion, and develops analytical tools and data investigations.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Analyst → QA Automation Engineer,05e457dc-e1da-5dfa-af17-2a2f4871c1fe,Data Analyst,Data Analyst,QA Automation Engineer,Data Engineer (Middle level),"You will be involved in the startup project development (USA market), and work in a small team. Currently, we are in the discovery phase, just accumulating and processing data.
+
+**Qualification you`ll need to bring:**
+- Proven working experience as Data Engineer
+- 2-3 years of professional experience in software development at least
+- Working experience with Python
+- Familiarity with AWS services (glue, AS3, etc.)
+- Familiarity with Google Cloud Service for Big Data
+- Integration data transformation
+- Hands-on experience with data collection, validation, and data metrics
+- Understanding of databases and data structures — envision solutions — provide options back for enhancements
+- Experience in communication with English-speaking technical and business stakeholders to discuss requirements and design (Intermediate English level)
+
+**In this role you will be in charge of:**
+- Design and implement ELT\ETL pipelines and dashboards
+- Data quality assessment
+- Creating and supporting validation pipelines for continuous monitoring of the quality of data
+- Helping pinpoint and fix issues in data quality
+- Close work with clients to understand their needs
+
+**We offer:**
+- Frequent salary reviews & bonuses
+- Paid vacation and sick leaves
+- Paid professional certifications
+- Paid English classes
+- Flexible working hours 
+- Compensation program for purchasing new laptops 
+- Friendly atmosphere
+
+We respect your time, so the hiring process takes no more than 3-5 days.
+
+Ready to try your hand? Do not pull the cat’s tail, send your CV without a doubt!",1591,False,True,"Builds data engineering solutions and processes for cloud-based collection, transformation, and storage.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Analyst → QA Automation Engineer,a4fb8582-8dc2-51f8-a374-42365bf24266,Data Analyst,Data Analyst,QA Automation Engineer,Head of Data Analytics,"We are looking for a Head of Data Analytics to join our team. 
+
+**Responsibilities:**
+⚙ Lead on reporting, analytics, and data exploration and recommend improvements. 
+⚙ Create, update and edit functional and technical design specifications and solutions to meet project requirements. 
+⚙ Responsible for the training and development of team members. 
+⚙ Set goals and drive the overall roadmap for the business intelligence reporting team. 
+⚙ Support and independent execution of tasks. 
+⚙ Build, maintain, and communicate detailed reporting, dashboards, and analysis on key business metrics and challenges. 
+⚙ Establish operational objectives and work plans, and delegate assignments to subordinates. 
+⚙ Contribute to the development of models around predictive recommendations, marketing attribution, financial forecasts, etc to support the best decision-making within the organization. 
+⚙ Translate complex analytics tasks into easily consumable outputs to guide data-driven decisions with various stakeholders. 
+⚙ Develop consistent approaches and methodologies for data analysis, automate repeatable tasks and drive process efficiencies.
+
+**Requirements:**
+✔ Higher education in mathematical statistics, computer science, or engineering
+✔ 3+ years of analytical reporting and data collection experience 
+✔ Advanced knowledge of reporting analysis tools development; mainly Tableau and/or Microsoft Power BI 
+✔ Proficient with SQL and other common programming languages
+✔ Strong leadership and decision-making abilities
+
+**What we offer:**
+➡ Full time 
+➡ Work remotely or in office 
+➡ Flexible working hours 
+➡ Competitive compensation level 
+➡ Payment of vacation and sick leave 
+➡ Business trips, participation in conferences 
+➡ Professional growth
+
+🙏 Thank you for your attention to this position, if you've read to the end there's a reason to discuss the details.",1900,False,True,"Leads business intelligence reporting, dashboards, data exploration, and analytics team development.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Analyst → QA Automation Engineer,33c287bd-6bdf-55f8-9ab6-ab67a5180af0,Data Analyst,Data Analyst,QA Automation Engineer,Data researcher,"**Duties:**
+- Research healthcare market and prepare analytical marketing materials
+- Do analytical reports, and presentations for top managers
+- Prepare internal team with market research to participate in government tenders.
+
+**Requirements:**
+- Relevant experience in market research
+- Analytical skills
+- Advanced English level
+- Ability to meet deadlines and handle occasional multitasking.
+
+**It will be an advantage:**
+- Experience in the healthcare domain.
+
+**Offering:**
+- Opportunity to meaningfully influence the product/project growth and development
+- Interesting and challenging large-scale projects
+- Dynamic and professional team
+- Loyal and attentive management & supervision
+- Competitive compensation
+- Equipment for work
+- Personal and professional growth
+- Full remote work, but if you wish — you can come to our Kyiv offices: Creative State of Arsenal or Business Center Europe Plaza (near the metro)
+- Corporate English courses online in ZOOM (fully paid by our company)
+- Wellness package: Medical Insurance or compensation (optional)
+- Paid time off (24 days of vacation) and sick days 100%
+- Corporate events, holiday celebrations, team building activities
+- New year holidays.
+
+**Let’s join to our friendly team!**
+
+With us, **you will grow professionally** by doing work you can be proud of.
+We hire people we trust, and we give team members autonomy to do their best work.
+
+We have a highly collaborative culture supported by **our values**:
+
+**Personal touch.** We work in small, smart, and highly qualified teams.
+
+**Expertise.**Deep domain knowledge is our key to excellence.
+
+**Responsibility.** We approach clients’ projects as our own, striving to perform to the best of our abilities.
+We approach clients’ projects as our own, striving to perform to the best of our abilities.
+
+**Trust.** We believe every team member is responsible for his/her own tasks, so we don’t micromanage our people.
+
+**Freedom.** You can decide on the solutions within your field of expertise and — in the same way — you manage your own work hours and place in a way that helps you stay productive.
+
+**No bullshit.** We create high-quality complicated products and don’t allow a “let’s just finish it” approach. The same goes for processes inside the company: we do our best to make sure no bullshit sneaks up.
+
+**Zero dumb bureaucracy.** Meetings, reports, long approvals, and meetings again? That’s not us. Bureaucracy is inevitable to some extent, but we keep it in check to make sure that what we mainly do is work.",2580,False,False,Researches healthcare markets and prepares analytical reports and presentation materials.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Analyst → QA Automation Engineer,82c62922-2d2c-5bb4-b1e5-5bd19e8da410,Data Analyst,Data Analyst,QA Automation Engineer,Data Analyst/BI Engineer,"We are looking for a Business Intelligence (BI) Engineer to join our dynamic Data team. You will be responsible for helping the team deliver by designing and maintaining state-of-the-art, real-time and dynamic data infrastructure in a modern data stack. You will be responsible for reflecting accurate and transparent status to stakeholders in the organisation, working with them to improve processes and make necessary changes to attain Roadmap goals.
+
+ROLES & RESPONSIBILITIES :
+● Data Modeling
+● Data Visualisation
+● Assemble large, complex sets of data meeting non-functional and functional business
+requirements.
+● Identify, design, and implement internal process improvements including infrastructure re-
+design for greater scalability, data delivery optimisation and manual process automation.
+● Build analytical tools to utilize the data pipeline, providing actionable insight into key business
+performance metrics including operational efficiency and customer acquisition.
+● Work with stakeholders including data, design, product, and executive teams and assist with
+data-related technical issues.
+● Work with stakeholders including the Executive, Product, Data, and Design teams to support
+their data infrastructure needs while assisting with data-related technical issues.
+
+REQUIRED QUALIFICATIONS:
+● Bachelor’s degree (or higher) in Computer Science, Data Science, Engineering, or similar
+● At least 3 Years of experience as a Data Analyst, BI Engineer or similar Role
+● Ability to understand and talk to Business users, Systems Analysts, and other stakeholders and
+translate business requirements to technical requirements and vice versa.
+● High SQL proficiency is a must!
+● Good familiarity with Agile and/or Scrum methodologies.
+● English at a high proficiency level.
+The following will be considered an advantage:
+● Data Analyst or related certifications
+● Payments and/or FinTech Industry experience
+● Experience with Python and/or R and common libraries
+● Previous experience building data models, data modeling layers/semantic layers
+● Advanced knowledge of BI tools such as Looker/LookML
+● Experience with modern data analytics technologies utilising Machine Learning and Artificial
+Intelligence towards automation, predictive modeling, behaviour analysis and pattern
+recognition
+● Experience with Apache’s Superset.
+
+QUALITIES WE ARE LOOKING FOR:
+● Leaders who take ownership and initiative!
+● Learn and be curious - continuously seeking to learn and better their skills and methodology.
+● Effective team players - understanding your team, being approachable, expressing optimism,
+support, development and empower people - their success is your success - know what
+motivates your teammates.
+● Effective Communication Skills - Ability to have meaningful interactions with your team,
+stakeholders and being able to communicate well, both verbally and in writing.
+● Motivation - You should be self-motivated, with a continuous drive to deliver results and satisfy
+business needs.
+● Organised and methodical - attentive to detail and thriving for the highest standards. We are
+looking for someone that can be trusted to set and forget, knowing that they will give attention
+to detail and quality.",3260,False,True,Designs data models and data infrastructure while supporting BI visualization and stakeholder reporting.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Engineer → QA Automation Engineer,76c59b60-8751-538a-8b6d-9649e1d76596,Data Engineer,Data Engineer,QA Automation Engineer,"ETL Developer, eCommerce, Talend","We are looking for an ETL engineer to join our team for a long-time project.
+Our client is a Canadian software development company working on its own platform.
+You will build new and support existing solutions for transforming raw client data into standardized data outputs for Search using Talend, Java, and Airflow
+
+Project: SaaS-based, data-driven eCommerce platform on AI-powered and fully cloud-native technology. North American market.
+
+Qualifications Required
+- Experience with Talend Open Studio
+- Experience with Airflow
+- Intermediate proficiency in one or more programming languages of your choice, such as Python, Java, etc
+- Strong problem-solving skills
+- Self-driven attitude toward learning new skills and technologies
+- Experience with Cloud Computing, such as Google Cloud Products, Azure, or Amazon Web Services will be a plus
+- Basic understanding of Docker and Kubernetes will be a plus
+
+Full-time remote job. Ability to work within EST work hours preferred.",994,False,True,"Develops and supports ETL workflows that transform client data using Talend, Airflow, and programming tools.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Engineer → QA Automation Engineer,20ef84e4-d1ae-53a2-9a5a-cac90e23094d,Data Engineer,Data Engineer,QA Automation Engineer,Full Stack Data Engineer (Spatially Health),"On behalf of **Spatially Health**, SD Solutions is looking for a **Full Stack Data Engineer** with expertise in **Node.js**, **React,** and a strong background in data engineering to join the health industry.
+
+**Responsibilities:**
+
+- Design, develop, and maintain end-to-end data solutions, including data pipelines, data models, and data visualization components, using Node.js, React, and other relevant technologies.
+- Effective scan APIs to back-end infrastructure.
+- Build a cloud architecture for the data.
+- Fix raw data.
+
+**Requirements:**
+
+- Bachelor's degree in Computer Science, Information Systems, or a related field.
+- Proven experience as a **Data Engineer with full stack capabilities**, including expertise in Node.js, React, and other relevant technologies.
+- Strong programming skills in **Node.js, React**, and other related technologies for full stack development.
+- Experience with data integration from various sources such as databases, data warehouses, APIs, flat files, etc., and proficiency in data extraction, transformation, and loading (ETL) processes.
+- Solid understanding of data modeling concepts and best practices, including database design, database normalization, denormalization, and performance optimization.
+- Knowledge of data security concepts and best practices, including authentication, authorization, and encryption.",1380,False,True,"Builds end-to-end data solutions, pipelines, models, cloud architecture, and visualization components.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Engineer → QA Automation Engineer,a68da334-3916-54bd-acbe-6a26d7c8746d,Data Engineer,Data Engineer,QA Automation Engineer,Data Architect/Data Modeler,"Our client is a global mining company with a world-class portfolio of products that are used by a billion consumers every day. Our client relies on data and cutting-edge data science to enhance their operations. They also use advanced machine learning and artificial intelligence to optimize their processes.
+
+Mission
+- Create conceptual and logical data models through analysis of source data and interviewing subject matter experts (SMEs)
+- Create data flow diagram
+- Create dictionaries, taxonomies, and ontologies
+- Update data governance, data catalogue, and data quality solutions
+- Work with application developers to ensure that data model is aligned with application design
+- Work with business data owners to achieve alignment on entity harmonization
+- Work with business architecture to ensure that the data structures in place meet the business requirements
+
+Requirements
+- Bachelor’s Degree in Computer Science, Software Engineering or Engineering
+- Expert in Data Modeling (Conceptual, Logical and Physical)
+- Skilled in Data Profiling and Source System Analysis
+- Experience in explaining and validating data models with stakeholders
+- Hands-on experience in Data Modelling tools like ER/Studio Data Architect
+
+Nice to have
+- Knowledge of Semi Structured and Unstructured Data
+- Knowledge of Azure Analysis Services
+- Experience with Metadata Management including using a data catalogue; data quality definition and tooling; data governance
+- Experience in cloud storage solutions such as Azure Data Lake Gen 2
+- Experience of large-volume time-series data systems like OSISoft PI
+- Systems development or data warehousing background, including the software development life cycle
+- Experience with process control standards ISA 88 and ISA 95
+- Experience with mining industry value chain processes",1839,False,True,"Creates data models, flows, dictionaries, and governance or quality documentation with technical teams.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Engineer → QA Automation Engineer,36fb4e6b-8e1c-5394-b29b-03ccbf3e321b,Data Engineer,Data Engineer,QA Automation Engineer,BI/Data Engineer Teamleader,"We are looking for BI/Data Engineer Teamleader for participating in most important processes in our project.
+The client we offer is the leading online re-commerce provider for books, CDs, DVDs/ Blu-rays, games and clothing in Europe. They offer a fast and easy way for people to sell and purchase pre-owned consumer goods.
+Based in Berlin, our client has launched their online trade-in service and the app for iOS and android where consumers in Germany, Austria, France, Belgium and United Kingdom can sell their stuff at fixed prices.
+
+Mission
+• Determine optimal solutions for integrating data from a variety of sources (ELT) into our data warehouse.
+• Implement, maintain and monitor data pipelines considering data quality standards.
+• You take care of ensuring the operation of the BI application and its continuous improvement (monitoring, alerting).
+• Work closely and collaboratively in an agile environment with our analysts, engineers and product teams to analyze issues and find new insights covering our business and operations.
+• You are responsible for processing ad-hoc requests for data, reporting or further analysis questions.
+• Making decisions and mentoring other team members
+
+Profile
+Must have
+• A degree in Computer Science, Data Engineering, Math or in a comparable field.
+• 5+ years of experience in analytical software development preferably with Python.
+• Proven experience in modern data warehouse paradigms using Google BigQuery.
+• 5+ years of work experience with SQL, Data Modeling, Data Architecture and dimensional modeling concepts.
+• Proven experience in ETL processes, API integration and automated processing of structured as well as unstructured data.
+• Practical experience with orchestration tools like Airflow as well as knowledge of newer developments such as DBT, Great Expectations.
+• You have expertise in the use of cloud storage solutions (Google Cloud Storage, S3, Redshift) as well as relational databases (MySQL, PostgreSQL)
+• Know-how of Linux, Shell, and DevOps tools.
+• Familiarity with CI/CD systems experience (Kubernetes, Gitlab, Docker, ArgoCD etc).
+
+We offer
+• Opportunities for professional and career growth
+• Contributing to a high scale, complex product and seeing the real-time impact of your work
+• Competitive base salary
+• Healthcare insurance
+• Educational budget
+• Certification in main cloud platforms (AWS, Azure)
+• Challenging tasks and professional development, knowledge & best practice sharing.
+
+Project is for 6 month with possibility of prolongation.",2559,False,True,"Leads BI and data engineering work, including integration of data into a warehouse.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Data Engineer → QA Automation Engineer,9d9e964a-8c01-5cc2-9d46-dafe55bf454d,Data Engineer,Data Engineer,QA Automation Engineer,Intermediate (Middle) Big Data Engineer,"**WE ARE**
+SoftServe is a global digital solutions company with headquarters in Austin, Texas, founded in 1993 in Ukraine. 13,000+ associates are currently working on 1,100+ projects with clients in the USA, Europe, and APAC region. We are about people who create bold things, make a difference, have fun, and love their work.
+We are successfully cooperating with our client in helping people move forward with credit, providing products that responsibly meet their needs. Whether this is offering new ways of accessing credit with a leading retailer or providing tools to facilitate customers’ management of their accounts, our client will continuously strive to help customers responsibly make the most of their credit.
+We offer an approach to financial services in touch with people and their lives. It is an approach grounded in customer knowledge and differentiated by our passion to deliver the products, services, tools, and expertise that best meet our customers’ needs.
+
+**YOU ARE**
+• Proficient in Big Data integration technologies such as Spark, Scala, AWS Data Pipeline for orchestration, Dremio, Glue, AWS Athena, AWS S3, EMR
+• Skilled in API and library design
+• Proficient with traditional database SQL technologies (Oracle, SQL Server, DB2)
+• Experient in the integration of data from multiple data sources
+• Able to write high-performance, reliable and maintainable code
+• Pretty knowledgeable of NoSQL database structures theories, principles, and practices
+• Confident in CI/CD best practices, multi-threading, and concurrency concepts
+• Accustomed to cloud deployment
+• Familiar with the fundamentals of Linux scripting language
+
+Nice to have such expertise as:
+Python skills
+Building applications for cloud environment
+
+**YOU WANT TO WORK WITH**
+• Modeling, manipulation, transformation, and loading of the Data Lake technology layers
+• Designing and coding of data transformation and loading processes through the various layers of the Data Lake using Big Data open-source technologies such as Kafka, Spark, Scala, and associated AWS ETL tooling
+• Owning all of the Data Content, manipulation, business rules, and associated processes within the Data Lake
+• Defending quality and simplicity in the system code
+• Leading the enforcement of quality within the data landscape and Agile approach
+• Monitoring and profiling performance and suggesting/implementing solutions where appropriate
+• Recommending and testing new data structures, and physical data layouts, to improve throughput and performance
+• Endorsing the new Data Lake technology across the organization to address a broad set of use cases across data science and data warehousing
+• Researching, testing, and recommending new layers or products in the Data Lake Stack as these fast-moving technologies develop
+•  Educating and training other resources in the organization whenever needed
+
+**TOGETHER WE WILL**
+• Model, manipulate, transform and load Data Lake technology layers
+• Build knowledge of all data resources within Client and prototype new data sources internally and externally to Client
+• Building knowledge of all existing data manipulation within both data warehouse systems and within the business marts
+• Design and code data transformation and load processes through the various layers of the Data Lake
+• Get a great deal of learning and development opportunities along with our structured career path",3438,False,True,"Works on big-data engineering for a financial product, supporting data systems and related services.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Business Analyst → QA Automation Engineer,39c45522-0f12-589c-9e09-c591cba5078a,Business Analyst,Business Analyst,QA Automation Engineer,Middle System Analyst,"**Client description:**
+The largest wine and spirits distributor in the United States with operations in 44 states and Washington. Client's portfolio is 45% wine and 55% spirits. It was the 11th largest private company in the United States in 2021.
+
+**Details on tech stack:**
+Azure
+Java
+Typescript
+.Net
+Python
+
+**Min requirements to the candidate:**
+- Document/understand SG requirements.
+- How to build ECS/beast approach based on number of Apps, priorities.
+- Understand the effort involved in decoupling frontend from - backend, the best way to accomplish.
+- The engineers we allocate for this will need Azure, DevOps, understand the entire lifecycle
+
+**Nice to have requirements to the candidate:**
+Overlap with US working hours, and ability to join evening calls when required.
+
+**What tasks the candidate will work with?**
+Discover Phase of a possible larger project
+
+**What is good about project?**
+Brand New Project with the possibility to be a much larger project",996,False,True,"Analyzes system requirements and application architecture, including cloud and service boundaries.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Business Analyst → QA Automation Engineer,88dbf80a-83b1-5c23-b587-66eba5c38637,Business Analyst,Business Analyst,QA Automation Engineer,Technical Support Engineer,"**Requirements**
+
+Professional Services/Software Development/Administration experience
+Strong knowledge of RDBMSs
+Upper-intermediate English
+Computer Science or Natural Science education
+Experience with cloud solutions such as AWS, Microsoft Azure
+Familiarity with ETL and Data warehousing systems
+Familiarity with client-side and server-side architectures
+Readiness to work in a distributed team
+Ability to pull tasks from Asana backlog rather than waiting for a push
+Ability to align own activities with project requirements seamlessly
+Fast learning, result-oriented, analytical thinking, have good communication skills
+
+
+**Will be a plus**
+
+Linux administration skills
+Experience with Git or Mercurial
+Programming Languages (Java, JS, C# or Python)
+Experience working with Agile methodologies
+Fluent English
+
+**Offering**
+Great startup culture
+Comfortable office in the heart of Kyiv
+Competitive salary
+Ability to work remotely
+Business traveling
+Opportunity to work with experienced and interesting people (our Engineering Team consists of true dev-rockstars!)
+Flat organization
+Participating and contributing in hackathons and technical conferences around the Globe to innovate in new areas and improve operational efficiency.
+Personal and professional growth (we are holding speaking clubs with native speakers in English for our employees as well as so-called technical calls where everyone can learn and share different technologies and hard skills)",1489,False,True,"Provides technical services involving databases, cloud platforms, ETL, and client/server systems.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Business Analyst → QA Automation Engineer,dba25f6a-d3fc-56b5-a5dd-b6da03970aa1,Business Analyst,Business Analyst,QA Automation Engineer,Senior Business Analyst,"Our client is an award-winning global tax services and software provider, is the largest firm in the world dedicated exclusively to business taxes. The firm provides an integrated suite of federal, state, local, and international tax services on a multijurisdictional basis, including tax recovery, consulting, advocacy, compliance, and technology services.
+
+**Requirements:**
+IT industry experience: 4+ years (at least 3 years as BA/Requirements manager).
+Experience with writing User Stories, decomposing work.
+Extensive knowledge of business analysis activities and techniques.
+Self-starter with experience of kicking-off a project.
+Strong communication skills with ability to communicate to different stakeholders including top management.
+Experience in Agile methodologies: 3+ years.
+
+**Responsibilities:**
+Active participation in requirements gathering, product/service definition, scoping, decision making, and technical implementation planning.
+Collaboration with all of project insiders and stakeholders to plan, schedule, and report on requirements and task completion.
+Analyze market needs in order to identify product opportunities.
+Help to define product strategy and roadmap.
+Work closely with design, development, QA to determine the best requirements.
+Understand customer needs and deliver them to the development team.
+
+**We offer:**
+Flexible working hours
+A competitive salary and good compensation package
+Possibility of partial remote work
+Best hardware
+A masseur and a corporate doctor
+Healthcare & sport benefits
+An inspiring and comfy office
+
+**Professional growth:**
+Challenging tasks and innovative projects
+Meetups and events for professional development
+An individual development plan
+Mentorship program
+
+**Fun:**
+Corporate events and outstanding parties
+Exciting team buildings
+Memorable anniversary presents
+A fun zone where you can play video games, foosball, ping pong, and more",1946,False,True,"Handles business analysis for tax software, including requirements, user stories, and project initiation.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Business Analyst → QA Automation Engineer,06d1e93f-bab3-5ec6-9bc1-d3f46c689c2d,Business Analyst,Business Analyst,QA Automation Engineer,Middle Business Analyst,"**Requirements:**
+— **2+ years** of experience as a Business/System Analyst
+— Strong experience in Business Process Analysis, System Analysis
+— Experience with Sequence diagram (UML), BPMN
+— Experience in **API specification**, web-services and integration scenarios
+— Experience with creation of documentation for the team and customer (Detailed User Stories, Use Cases, feature-breakdown lists, etc)
+— Ability to find pain points and blockers from a business perspective
+— Analytical and communications skills necessary to gather and define business requirements and translate them into solutions
+— English level **upper-intermediate**
+— Good analytical skills, ability to analyze and design complex data flows and business processes
+
+**Responsibilities:**
+— Close collaboration with Product owner, CEO and development team to identify and clarify business requirements
+— Involving in Product discovery phase
+— Analyzing business requirements and business needs
+— Creation of documentation for the team and customer (use cases for testing, high-level documentation and user manuals for future support and maintenance)
+
+**We offer:**
+— A decent level of salary
+— Possibility to work remotely
+— Continuous professional competencies development and professional growth opportunities
+— Realization of your innovative ideas in building new solutions and services
+— Possibility to propose solutions to a project
+— Flexible schedule (40h per week)
+— Compensation 50% of the cost of English lessons
+— Paid training
+— Paid leave 18 days / Paid sick leave
+— Very warm and friendly working environment
+— Challenging work in the international professional environment
+
+**About project:**
+Post MVP startup, based in the US, is in the pre-release stage.
+The project is a web-based trading platform that provides fee-free access to the stock market. The app is easy to use and appealing to newer investors without a lot of cash which to invest and trading background.
+Using the platform, a new user is able to create a new account easily, select an asset from the list to trade, deposit and withdraw the balance, view all trading history.
+For the back office side were implemented two more web platforms in order to manage customers and accountancy.
+
+Used technologies: Vert.X, Redis, Сassandra, WebSocket, FIX Protocol (quickfix), PostgreSQL, Spring Boot (Spring Data, Spring REST), AWS ECS, Docker, React.JS.
+
+**We look forward to speaking with you!**",2478,False,True,"Elicits and documents business and system requirements for APIs, integrations, and processes.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Business Analyst → QA Automation Engineer,a40c895a-5666-56bf-9313-f89248a0fe3a,Business Analyst,Business Analyst,QA Automation Engineer,Marketing Technology Analyst,"About The Role:
+We are looking for a Marketing Technology Analyst to join the Business Intelligence team. You will focus on driving acquisition sources attribution and performance marketing efficiency by translating data and information into actionable insights for our stakeholders across the globe. You will have a deep understanding of the marketing toolbox &  capabilities and make sure we’re globally aligned on the way we report our performance. You help us understand the reports and guide key stakeholders in their decision-making to optimize performance. 
+A person in this role is comfortable with “all hands on deck” environment, eager to solve non-structured problems and thrive in a hustle startup culture.
+
+
+What You’ll Do:
+ - Multi-touch attribution modeling to ensure we are squeezing maximum efficiency from our campaigns;
+ - Be responsible for the Marketing tech stack, research and recommend new technologies and approaches;
+ - Own the marketing database management strategy that ensures data quality, supports audience segmentation and data hygiene;
+ - Be a vocal and proactive partner to your stakeholders. Guide their line of questioning rather than just fulfilling requests. Provide insights and conclusions rather than data outputs;
+ - Know where to find the right data to answer a question. Be persistent in ensuring data quality and resourceful in getting data that is not immediately available;
+ - Be comfortable outside of your comfort zone - understand always-changing business needs, explore new tech and tools, trace data issues to the source, or find a new way to address an old problem.
+
+
+What You’ll Need:
+ - 3+ years of Marketing/Customer acquisition analytics experience in a fast-growing tech startup;
+ - Proven track record of successfully connecting marketing technologies
+Expert in marketing analytics, technology and data visualization (GBQ, Adjust, Tableau etc);
+ - You understand how to choose an effective marketing split and how to measure the success of each marketing channel;
+ - Ability to build relationships and work seamlessly in a global team environment;
+ - Strong team player with excellent verbal, written, presentation and interpersonal communication skills;
+ - Extreme attention to detail with great data visualization and presentation skills; you love beautiful graphs and slides;
+ - Strong execution skills in a cross-functional environment with multiple stakeholders;
+ - Humble, helpful and kind but able to say no so you can ruthlessly prioritize;
+ - Proactive, and willing to roll with the punches as the company experiences hypergrowth;
+ - You’re comfortable working with ambiguity and forging your own path;
+ - You deliver results quickly with iteration, instead of waiting for perfection;
+ - You love telling stories with data - numbers are key, but a business is built with people.
+
+We offer:
+- Flexible working hours;
+- Challenging tasks;
+- Young, friendly and skilled development team (middle+ level);
+- Skilled management;
+- Regular team events and activities;
+- Abilities to visit conferences, master classes, pass certifications;
+- Comfortable office in the city center;
+- Tea, coffee, cookies, fruits;
+- 20 working days of paid vacation per year.",3255,False,True,Analyzes marketing attribution and performance data and communicates reporting insights to stakeholders.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Project Manager → QA Automation Engineer,dad81387-482f-5113-a1da-4660c4e2c47f,Project Manager,Project Manager,QA Automation Engineer,PM / Project Manager (Dynamics),"About the company: The company is a prestigious Microsoft Partner, that provides Business Systems Consulting in cooperation with Microsoft-based technologies. Their purpose is to guide and advise customers and partners in business systems change and infrastructure.
+
+Requirements:
+- 1+ years of working experience as a Project Manager.
+- Advanced  English.
+- In-depth knowledge and understanding of ERP systems.
+- Organizational and time management skills.
+ 
+The company offer:
+	• Flexible working schedule, fully remote work opportunities.
+	• PTO (20 days a year).
+	• Bring-your-own-device program: compensation for personal equipment usage.
+	• Training and courses covered by the company.
+	• Direct cooperation with the customer.
+	• Great working environment and team spirit.",791,False,True,Coordinates customer projects involving Microsoft business systems and customer-facing consulting.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Project Manager → QA Automation Engineer,0f8f45f7-cc0e-52d6-a6b7-e172d834d0b7,Project Manager,Project Manager,QA Automation Engineer,Senior Project Manager,"Requirements:
+•	Experience as Project manager
+•	Knowledge of project management in general
+•	Hands-on experience in agile development methodologies
+•	Experience with management tools such as Azure Boards & Jira
+•	Creating reports and dashboards
+
+We offer:
+•	Сompetitive salary
+•	Medical insurance
+•	Tax compensation
+•	Modern and comfortable office near the Vystavkovyi center
+•	Long-term employment with 20 working-days paid vacation
+•	Paid sick leaves (10 per year)
+•	Free meals, fruits, sweets, and cookies
+
+Responsibility:
+•	Control project backlog, translate business needs into technical requirements and tasks
+•	Responsible for planning and reporting
+•	Create specifications and establish project scope by studying strategic business drivers; discovering and validating business and technical requirements and parameters
+•	Work cross-functionally to ensure proper engineering and support for development projects
+
+
+About the project:
+Israeli startup looking for experienced software engineers to develop the hotel tech platform from scratch.
+As people have more flexibility to work away from the office and longer periods of travel are becoming the norm, our client aims to create an end to end experience around hotels and guests by launching both web and mobile applications for long-term hotel renting with an easy-to-use communication platform for users.",1389,False,True,Manages project backlog and translates business needs into delivery tasks and reporting.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Project Manager → QA Automation Engineer,ef918aa3-a430-5840-b6f0-d02a65ea2882,Project Manager,Project Manager,QA Automation Engineer,Project Manager,"About
+Reface is the #1 face-swap app in the world. It won Вest of 2020 (Google Play), ranked #1 on the US App Store, hit Top Charts in 100+ countries, and now backed by Andreessen Horowitz venture fund.
+Snoop Dogg, Miley Cyrus, Britney Spears, Justin Bieber, and probably a bunch of your friends tried Reface. We have a team of 100+ driven folks on board (Kyiv office), including some of the top AI/ML minds. Yay.
+
+Our mission is to create a new type of AI-based personalized content that will help people express their creativity and have fun.
+
+What you should know
+Basic understanding of project management processes.
+Advanced level of English (German or Dutch will be plus).
+Basic programming skills in any language, pre-junior level is fine.
+Great time management and organizational skills.
+Personal traits: responsible, willing to learn, proactive, and easy-going.
+Previous experience in the field will be a plus.
+Knowledge of planning / team management tools (notion, slack) is desired.
+
+At Reface, a Project Manager  means that
+You take an active part in development/management of project requirements.
+You assisting in team management and performance analysis.
+You coordinate communication process of Ukrainian and Netherlands Team.
+You preparing documents for perfect cooperation between two part of the team.
+Carrying out responsibilities of other project managers during their absence.
+
+What you get
+
+Well, you get the startup environment with all its ups and downs. Mostly ups
+You’ll be one of those who create the fast-growing world-known entertainment app. It’s like to live in a „Silicon Valley” tv show, but in real life and in Kyiv
+You can work remotely but we hope to see you in flesh in the office, from time to time. On a social distance, for sure
+You’ll be challenged to create and to be creative. All the time
+You’ll join the team of smart, young, active people, who do their job well. And that’s the best part, we think
+
+Apply, don’t overthink. This is The Job you were looking for.",2035,False,True,Coordinates project work at a consumer application company with product and engineering teams.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Project Manager → QA Automation Engineer,58c49f63-64ac-52a1-8c5d-81824ff54b62,Project Manager,Project Manager,QA Automation Engineer,Project Manager for AMLSafe,"AMLSafe is a leading non-custodial DeFi wallet focused on compliance and security. We are on the lookout for a dynamic, energetic, and highly motivated Project Manager to join our international team. If you're ready to face new challenges and have a keen interest in the world of cryptocurrency, then this is the perfect opportunity for you!
+
+Our products also include other crypto compliance-oriented products, such as AMLBot, which facilitates AML, KYC, and KYT, in order to protect businesses and regular users from dirty money risks when interacting with CeFi and DeFi projects.
+Job Description:
+The Project Manager will play a crucial role in handling the app’s day-to-day operations by overseeing all of the activities, including marketing, development, SMM, and sales. The key will be harmonizing those aspects in order to monetize the app’s existing user base. 
+
+Responsibilities:
+Conduct a basic product, marketing, and SMM audit to identify any mistakes, discrepancies, and non-functional aspects;
+Harmonize the tone of voice and textual descriptions across the app, website, and social media;
+Develop and execute a basic marketing & SMM strategy plan;
+Along with the sales team, develop and execute a monetization strategy for our existing user base;
+Carry out ongoing market research and suggest product enhancements;
+Collaborate with related departments, including the technical team, sales, founders, and PR.
+
+Preferred Qualifications:
+Knowledge and interest in the cryptocurrency and blockchain sector;
+Excellent communication, organizational, and leadership skills;
+A desire to manage complex projects and drive them to success;
+A self-starter, able to work independently and as part of a team;
+Upper-Intermediate level of English.
+
+
+What We Offer:
+
+The remuneration for this role is fixed at $1000, with additional bonuses +$2000-3000 based on KPIs that will be determined with the successful candidate;
+Flexible schedule and ability to work remotely;
+Office in Kyiv (business center Gulliver) with a great view;
+Professional growth within the company. Both vertically and horizontally within our other products;
+Internal webinars and training for personal & professional growth;
+Friendly team that is always supportive. Team-building events.
+
+Join our team and help us develop our business on the international scene while growing professionally and personally and increasing your financial wealth. We offer flat hierarchies, open and transparent communication, and a friendly and cooperative atmosphere.
+
+Are you ready to be a part of a dynamic, forward-thinking team and make a significant impact in the crypto world? If so, we would love to hear from you.",2709,False,True,Coordinates delivery for compliance-focused cryptocurrency wallet and related products.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Project Manager → QA Automation Engineer,95c5cfde-a1e7-598c-8795-716d064a55ec,Project Manager,Project Manager,QA Automation Engineer,Engineering Manager (Digital Banking Product),"**🔹About the project**
+Our Amsterdam-based client has developed and continues enhancing the world’s leading digital banking solution that allows the creation of rich, interactive web and mobile applications. Our client’s Banking as a Service platform comes with a complete set of integrated customer experience management functions, including integrated content management, intelligent forms-based dialogues, secure application integration, cross-device delivery, smart targeting, digital marketing tools, and integrated analytics.
+If you are a client of a major European bank, chances are you’ve already used our client’s platform. Now you have a great chance to contribute to its development and enhancement!
+
+In the beginning, we expect you to work closely with processes and teams (establishing communication, coaching managers, participating in the development of performance development plans, and similar).
+
+**🔹You will be responsible for:**
+Delivery Management
+- Own the delivery commitment of the team and together with the team make sure to deliver what has been promised and up to the quality standards our customers expect from us.
+- Keep key technology stakeholders involved and informed when and where needed.
+- Together with the Product Owners, make sure realistic commitments are given by e.g. advocating Lean-Agile Development Principles.
+- Ensure software delivered by your teams is released with minimal effort and does not have any issues with production. And if that is not the case yet for your development team? You should know what to do!
+
+Team & People Management:
+- Work with your team towards an environment in which each individual improves both soft- and strong engineering skills.
+- Create the conditions in which the development teams can deliver features that respect the high expectations on e.g. quality from our customers.
+- Manage up to 3 cross-functional development teams of software engineers, responsible for the right setup, the right competencies, and energized team dynamics.
+- Work closely with your team to surface any anti-pattern or dysfunction that impacts the team’s performance and ensure the team works towards solving those.
+- Be a natural coach, through effective questioning you guide self-evaluation of performance, help our teams diagnose areas for improvement, and own the solution. You will be measured on team output and employee happiness.
+
+**🔹You will be a good fit for our team if:**
+- You have 4+ years of experience in leading multi-disciplinary Agile development teams (minimum 2 teams of 6 - 8 engineers), preferably in a product company and banking;
+- You have a solid understanding of IT technologies and roles, giving you sufficient skills to interact with your technical colleagues;
+- You have a rock-solid understanding and experience with Scrum;
+- You have the ability to prioritize and plan effectively with a demonstrated ability to work well under pressure and in ambiguity;
+- Experience with setting up new development teams, including hiring, team line-up, and onboarding/training strategies is a plus;
+- You have a Proficient level of English.
+
+**🔹9 reasons to join us:**
+1. Today we’re working with the technology of tomorrow.
+2. We don’t wait for change. We are the change.
+3. We’re experts in creating experts (Levi9 academy, Lead9 program for leaders).
+4. No micromanagement. We are free birds with a clear understanding of what high performance is!
+5. Learning in Levi9 never stops (unlimited Udemy for business, meetups, English courses, Professional training, and certification).
+6. We’ve gathered the best locations. All you have to do is choose (5min from Olimpiyska metro station in Kyiv and Lviv office overlooking the Stryiskyi park).
+7. We have a master’s degree in work-life balance.
+8. Here you can train your body and mind (massage, gym in the office, TRX, Crossfit, and more with our corporate trainers).
+9. A little party never hurt nobody (winter/summer parties, Ski Trip, etc).
+
+**🔹Simple step to get this job**
+Click the APPLY NOW button and leave your contacts!",4101,False,True,Leads an engineering organization delivering a digital banking platform and its product capabilities.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → QA Automation Engineer,bc19548b-0d81-59d0-8953-f64acbb09a01,Product Manager,Product Manager,QA Automation Engineer,Mobile Monetization Manager,"Let's create and promote unique mobile applications and utilities, which are used by millions of users around the world. We are looking for Mobile Monetization Manager to be a part of the professional team in Limassol, Cyprus.
+
+🔥 What you will do?
+🔹 Collaborate with the product manager to develop and manage strategies that drive monetization in our applications
+🔹 Optimization of advertising settings
+🔹Increase revenue, user engagement & retention, and in-app purchases using different tools (such as IronSource, AdGem, ayeT-Studios, etc) 
+🔹Generation of ideas and suggestions for product improvement
+🔹Constantly searching for new ad monetization options 
+🔹Interaction with advertising partners
+
+🔥 About you
+🔹2+ years or more experience in advertising monetization
+🔹Deep understanding of advertising monetization mechanisms (including from the technical side)
+🔹Hands-on attitude, detail-oriented, and able to make data-driven decisions
+🔹Analytical mindset and logical thinking
+🔹English – Upper-intermediate level
+
+🔥 We offer
+🔹Above-average salary
+🔹Deeply fulfilling tasks and challenges
+🔹Fast-developing projects
+🔹Strong and close-knit team of professionals
+🔹Comfortable ""class A"" office and free lunches in the center of Limassol
+🔹Relocation package & assistance",1286,False,True,"Improves mobile-app monetization through advertising optimization, engagement, and revenue initiatives.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → QA Automation Engineer,6289432b-8b94-5aac-9e3b-9850079113e0,Product Manager,Product Manager,QA Automation Engineer,Head Of Product Development (Vienna),"**OUR VISION**
+There are countless small businesses out there that we rely on every day. The cool new coffee shop, the hairdresser I trust or the kebab shop around the corner. All of them are lovely people, with great ideas, who love to go the extra mile for their customers and their passion. 
+We are building a tool with experts from tax consulting, business, compliance and law, which enables small businesses to have the freedom to make their own decisions and to do what is important to them and what makes their company what it is.
+
+YOUR MISSION
+You manage and lead our team of 20 software engineers to deliver continuous output for our customers. 
+One big challenge is to keep product, design, and engineering aligned so you might have to structure processes and hire additional senior engineers to professionalize our product development unit.
+As part of our management team, you are also responsible for the technical strategy and roadmap to make sure we are able to scale our business internationally (10x).
+
+**Skills and experience to be ready**
+You have a track record (spent +10.000 hours in a product development environment) in a leading software engineering role related to the challenges we face. If we break it down to a number, you have +5 years of experience in leading a 20-60 product development unit. 
+Your focus and passion are in customer-centric product development. 
+Relevant engineering or science degree.
+You look for a +3 years challenge with huge potential to shape a success-story.
+You are eager to step into a CTO role in the long run.
+We offer a market-oriented salary plus ESOP.
+
+**Team Competencies**
+Product Management
+Compliance
+Hardware
+SaaS
+Payment
+Operations
+
+**Product Design**
+User Interface
+User Experience
+User Research
+
+Engineering – (Find tech stack in our CTO opening)
+Frontend
+Backend
+Infrastructure
+Mobile
+QA
+Architecture",1907,False,True,Leads software teams developing a tool for small businesses and drives ongoing product delivery.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → QA Automation Engineer,52f7e141-c926-5154-948e-6bf9c8134cdb,Product Manager,Product Manager,QA Automation Engineer,Senior Product Owner,"Infopulse Ukraine is inviting talented professionals to join our project as a Senior Product Owner for our respectable client, TietoEVRY, in our Kyiv office.
+TietoEVRY is one of the largest IT companies in Europe with 24000 specialists that provides services to customers all over the world.
+We look for a Functional analyst experienced in banking area who can help us in the development of a platform for instant payments, based on Java, JavaScript, iOS and Android. You will collaborate in teams together with UX designer, architects and developers in close cooperation with our customers.
+You will be responsible for requirement elicitation for various modules being developed in the product. This is done by the analysis of the high-level requirements provided by international subject-matter experts (SMEs) and coming up with functional designs in terms of use case models, use cases, and so on. In consultation with the SMEs, these artefacts are developed and approved. Your responsibility will also include presentations and walk the technical teams through the expected functionality to support functional design, development and testing. Another area that will need your attention is the impact analysis for the functionality that needs to be enhanced due to other related functions.
+Qualifications
+•	At least five years of experience in a similar role preferably  within the financial domain
+•	Knowledge of retail banking and payment systems
+•	Experience and understanding of web and mobile development technologies
+•	Experience in Agile methodology
+•	Reviewing / Designing / Documentation skills
+•	Mentoring skills
+•	Strong analytical skills and attention to details
+•	Strong communication and presentation skills
+•	Strong team-playing skills
+•	Upper-intermediate / Advanced level of English
+Areas of Responsibility
+•	Analysis of user demands
+•	Ensuring that business needs are clearly understood and that technology implemented meets the needs and expectations of the business
+•	Requirement specification
+•	Documentation of new and existing features in the product
+•	Contribute to the improvement of processes and documentation
+•	Being part of the Scrum team, you will have the Product Owner role and will closely cooperate with the product manager on planning and shipping product increments.",2326,False,True,Defines requirements for a banking payments platform and coordinates work with design and engineering.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → QA Automation Engineer,357003e8-deef-5a9b-835c-3bc0f86a81c4,Product Manager,Product Manager,QA Automation Engineer,Junior Product Manager,"Responsibilities
+Use market and user research and deep empathy for user needs to develop a vision and strategy for the product roadmap across consumer security, privacy, and digital safety
+Work cross-functionally with design, engineering, data, product marketing, and marketing to define, execute, and launch new products and features
+Develop and justify business cases and roadmaps for new products and featuresCompose and prioritize backlog for engineers
+Creatively work with engineering teams to apply novel technology in new and improved use cases
+Manage or collaborate with a project manager to efficiently use engineering resources to implement the required scope
+Research and understand key technology trends and incorporate them in the product roadmap and business model
+Find creative solutions on how to implement the desired scope in a most cost-effective way
+Report to management on project progress and risks on a regular basis
+Qualifications 
+
+0.5-1 years experience working with mobile
+Bachelor’s degree in a technical, marketing field or equivalent practical experience required
+Experience launching desktop and Web products will be a plus
+Familiarity with the consumer technology landscape, particularly in security, privacy, and digital safety
+Deep understanding and empathy for users
+Excellent written and oral communication skills
+Proven ability to motivate teams and work cross-functionally in a highly collaborative environment
+
+As part of Pango Group, you will: 
+
+Solve real customer problems. Pango Group’s point solutions allow consumers to address their immediate cyber protection needs. Our mandate is to continuously anticipate our customers’ evolving digital security needs to create best-in-class solutions aimed at keeping them safe.
+
+See your impact. We are a scrappy, nimble organization where individual contributions are needed and valued. You will see your impact every day.
+
+Accelerate your career. As we expand, you will have the opportunity to learn new technologies, products, and markets in a fast-paced, growth-oriented environment.
+
+Most importantly, you’ll get to work with other talented people at a company where people matter. If you want to put your fingerprint on an organization and leapfrog your growth, this is the place for you.
+In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on race, color, ancestry, national origin, religion, age, gender, marital domestic partner status, sexual orientation, gender identity, disability status, or veteran status. Above and beyond discrimination or harassment based on “protected categories,” Pango Group is committed to being an inclusive community where all feel welcome. Whether blatant or hidden, barriers to success have no place at Pango Group.",2828,False,True,"Develops product vision and roadmap, prioritizes engineering work, and supports product launches.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → QA Automation Engineer,727aa848-44a1-5eb7-8551-0dce41b862d8,Product Manager,Product Manager,QA Automation Engineer,Customer Solutions Product Manager,"We are looking for a Customer Product Specialist who will be responsible for solutions elaboration of our automotive OEM customers. This individual will work with CloudMade’s product delivery, design, and data science teams to deliver connected car systems and mobile applications.
+
+**ABOUT CLOUDMADE**
+
+Over the next 10 years the auto industry will see more dramatic changes than the last 100 years combined. Central to this disruption is the role that software and design are playing to define every aspect of the creation, development, use and sales of cars and transportation services.
+
+Today, CloudMade is an expert in the design, development and delivery of artificial intelligence-based solutions for the automotive industry and we are dedicated to delivering CloudMade’s promise of excitement through simplicity.  With over 80 POCs completed and 8 OEM customers spanning North America, UK, France, Germany and Japan, CloudMade has global ambitions and a global footprint to match.
+
+Driven by fantastic products, the latest technology and outstanding people, CloudMade has developed a business and a culture which match the huge ambitions of the company.
+
+**YOUR MISSION**
+
+Be the person behind the design and launch of the artificial intelligence automotive in-car solutions and apps in global markets.
+
+
+**ABOUT THE ROLE**
+
+We are looking for a Customer Product Specialist who will be responsible for solutions elaboration of our automotive OEM customers. This individual will work with CloudMade’s product delivery, design, and data science teams to deliver connected car systems and mobile applications. The role will involve travel to customer locations in Europe and USA.
+
+Your key responsibilities are:
+•	Direct communication with multiple stakeholders at major automotive OEMs, collecting pains, needs and expectations, and converting those into real products to be used by millions of drivers
+•	Defining products that are being built into vehicles for release between 2023 – 2026, from wireframes to technical requirements and acceptance criteria.
+•	Owning the product success metrics
+•	Guiding product delivery teams that are made up of designers, data scientists, solutions architects, and engineers
+
+**ABOUT YOU**
+
+You are a highly self-motivated problem solver and team player with a positive attitude.  You are a great critical thinker with excellent communication and negotiation skills who approaches situations with a win-win attitude. You are able to work completely autonomously, while in close coordination with the teams around you, constantly making your own decisions, taking responsibility and owning your work as a real entrepreneur would.
+
+Qualifications & Experience:
+
+•	A skilled communicator and leader who is comfortable in the middle of the whirlwind of product management 
+•	Analytical and data driven skills with strong instincts and impeccable taste, you stand at the intersection between marketing, design, and technology
+•	You have a technical background with several years of product management experience in delivering consumer applications, systems, and experiences
+•	3 years of experience with the full product lifecycle from ideation and innovation through to commercialization and iterative improvement
+•	Automotive experience is helpful but not mandatory. You are ready to immerse yourself in CloudMade’s world and the world of today’s driver, to develop exceptional empathy with the end user
+
+**THE PACKAGE**
+
+We offer a competitive package to the right candidate, which includes: -
+
+●	A competitive base salary 
+●	Flexible working hours and fully remote work available
+●	Personal and professional development
+●	A challenging role within a performance-based culture in which you will be surrounded by dynamic, entrepreneurially minded colleagues.",3839,False,True,"Develops connected-car customer solutions with product delivery, design, and data science teams.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+System Administrator → QA Automation Engineer,b66b29d7-6351-5f23-9b21-f2db4ebc10b3,Sysadmin,System Administrator,QA Automation Engineer,NOC specialist,"Requirements: 
+- Experience as a NOC specialist (or in technical support), as a plus 
+- Knowledge of English - at least Intermediate level (B1) 
+- Basic knowledge of Linux and АWS 
+- You're familiar with popular monitoring solutions (Grafana, Prometheus, etc.) and have experience in reading logs 
+- Experience with popular CRM systems 
+ 
+Working conditions: 
+- Shift schedule work 
+- Full remote 
+- Mentoring, personal and career growth 
+
+ 
+What we Offer  
+- Great Salary and social package  
+- Medical insurance 
+- Sport compensations 
+- Path to switch to DevOps career 
+- Professional working environment, where you’d be an essential member of our company 
+
+ 
+Interested in more details?  Contact us and send your CV. 
+
+We are eager to welcome you into our family. Let the high season in IT continue!",826,False,True,"Monitors infrastructure and logs, supports Linux and AWS systems, and handles NOC operations.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+System Administrator → QA Automation Engineer,150f3e1c-eb16-5160-9856-95194c07aa0f,Sysadmin,System Administrator,QA Automation Engineer,"System Admin - Amazon WorkSpaces (AWS), CloudFlare and Office365","We are looking for a cloud system admin on a part-time on ongoing basis. For our rapidly growing Digital Marketing and Affiliate Network Company.
+
+Job responsibilities include:
+1. Creating, maintaining, and optimizing AWS Virtual Machines (Window Based)
+2. Adding/removing Windows Features to the VMs
+3. Adding/removing programs to the VMs
+4. Troubleshooting licensing issues with Windows products and other, installed software
+5. Providing support to team members if they experience issues with the VMs
+6. Optimize the AWS Environment for speed and stability  
+7. Must be VERY detailed oriented, organized, team player, easy to work with, and positive mind-frame
+
+Please ONLY apply if you are:
+1. Fully versed and highly capable of providing the above listed services
+2. Have read job post fully
+3. Speak fluent English!!
+4. Must have at least 5yr+ Experience
+
+We expect to have 5-10 hours of work for you weekly (as a starting point).
+
+Should be available to work during EST (New York time) hours. Ideal 10am - 6pm Monday-Friday for assistance with team management.  ""Off Hours"" are Ok for projects and none team related tasks.
+
+Proof of prior experience with AWS and holding official AWS certification are a plus.
+
+Looking forward to hearing form you!",1277,False,True,Maintains cloud-hosted Windows virtual machines and supports users and installed software.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+System Administrator → QA Automation Engineer,60aac018-c8be-5669-85ef-892997b1a3ec,Sysadmin,System Administrator,QA Automation Engineer,Network Engineer/ SysAdmin,"Requirements:
+- Work with hardware (Dell, SuperMicro, NAS, SAN, RAID 0,1,5,6,10,50,60) and software (Windows, Linux);
+- Plan new infrastructure requirements and maintain current infrastructure;
+- Configure and maintain internal network (VLAN, L2, L3 routing, Jumbo frame, RIP, OSPF);
+- Configure and support VPN (L2TP, IPSEC, PPTP, SSTP, OpenVPN);
+- Deploy and support servers on internal and remote cloud infrastructure (Azure, AWS, Dedicated servers);
+- Perform AWS, Azure deployments and automation;
+- Prepare automation scripts to perform routine tasks (Bash, PowerShell, Python);
+- Prepare automation scenarios to perform routine tasks (Ansible or Puppet, Microsoft System Center);
+- Create and support virtual environments (HyperV, ESXi, VMware, LXD, Docker);
+- Basic level of maintain CI workflows (Jenkins, GitLab CI, TeamCity);
+- Administer and support MS TFS, GitLab;
+
+We offer:
+— Opportunities to work with the industry-leading partners and customers;
+— Friendly experienced colleagues and perfect work equipment;
+— Opportunities for career growth and raising professional skills;
+— Comfortable offices in the city center;
+— Lunches, snacks, and hot drinks available;
+— English courses;
+— Travel opportunities;
+— Decent salary, tax assistance.
+
+Responsibilities:
+- Prepare and maintain asset inventory of company resources;
+- Create and maintain access matrix to company systems;
+- Mitigate security vulnerabilities, apply latest patches to company systems;
+- Apply security best practices to software and hardware configurations and systems;
+- Support other departments to troubleshoot technical issues;
+- Collaborate with different engineering Teams across different offices;
+- Participate in external projects",1753,False,True,"Maintains server and network infrastructure across on-premises and cloud environments, using automation scripts.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+System Administrator → QA Automation Engineer,366034f6-eb9d-5f17-8fea-7f27a18a1054,Sysadmin,System Administrator,QA Automation Engineer,IT System administrator,"**OpenBet** leads the global gaming market, providing innovative software that powers the world’s most successful operators.
+
+We pride ourselves on product innovation and technical excellence and are constantly adding new applications and new functionality to our product suite, used by billions of end users. And, while many other companies have been downsizing, we continue to see growth across our business.
+
+**Want to be part of our story?**
+
+We are looking for a results-oriented IT Administrator to join our global IT team to help take OpenBet to the next level!
+
+**Responsibilities:**
+
+Building, monitoring and maintaining local office network.
+Upgrading, installing and configuring new hardware and software to meet company objectives.
+Implementing security protocols and procedures to prevent potential threats.
+Creating user accounts and performing access control.
+Performing diagnostic tests and debugging procedures to optimize computer systems.
+Documenting processes, as well as backing up and archiving data.
+Developing data retrieval and recovery procedures.
+Keeping up to date with advancements and best practices in IT administration.
+
+**Qualifications**
+Bachelor's degree in computer science, information technology, information systems, or similar.
+Experience with IT systems, networks, and related technologies.
+Solid knowledge of best practices in IT administration and system security.
+3 to 5 years’ experience providing technical support.
+Experience using ITSM, issue tracking, and/or asset management tools.
+Experience supporting Ubuntu, Windows and Mac OS.
+ACMT, ACiT, or ACSP certifications.
+Understanding of ITIL guiding principles and practices.
+Excellent interpersonal and communication skills.
+
+**Why would you enjoy this opportunity with OpenBet?**
+
+Alongside OpenBet’s market leading benefits; dynamic & vibrant working culture and talented team members – we can offer you:
+
+The opportunity to interact with global teams, and where appropriate switch teams and projects as you and our business continues to develop and grow;
+
+Tangible and genuine career development, where you can take your career where you want it to go!
+
+Competitive benefits, an open and supportive environment as well as a modern and exciting workplace.",2294,False,True,Administers local office IT systems and supports monitoring and maintenance for a software company.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+System Administrator → QA Automation Engineer,50ba7854-6ef3-5ab2-a90c-b4a4bb3c5a0b,Sysadmin,System Administrator,QA Automation Engineer,System Administrator for Cloud Commerce Operating System,"**About the Client**
+Spryker enables companies to become digital pioneers in B2B, B2C and marketplaces. The innovative platform-as-a-service solution with over 800 API-based modules is cloud-compatible and its flexibility makes it attractive for companies and developers.
+The Spryker Commerce OS has empowered 150+ companies to manage transactions in over 200 countries worldwide and is trusted by brands such as Toyota, Hilti, Lekkerland, Hero, Rose Bikes, and Prym.
+
+**About the Project**
+At Spryker, you would interact with numerous stakeholders across the entire organization, from a wide variety of areas. For us, you are the one-man-band who solves the big Spryker IT puzzle – an essential role, because we as a fast-growing tech company are perfectly positioned and depend on functioning IT system landscapes.
+If you see it the same way and are ready for taking ownership, become our System Administrator!
+
+**About the Team**
+Full-fledged end-to-end delivery team. You will work closely with Architects, PHP developers, DevOps, and QA experts as part of an Agile development process to achieve the best possible results.
+
+**Responsibilities**
+-You are independently responsible for the administration and maintenance of our existing software and hardware, and creating and maintaining the documentation for it
+-You enjoy setting up, supporting, and implementing systems and processes
+-You will work closely to support our HR team with on- and offboarding processes for new employees, whereby ordering and setting up the required hardware is your responsibility
+-For IT projects such as the complete development of the IT infrastructure at new locations/offices or the introduction and hosting of new systems, you are the specialist and have all the strings for planning and implementation in hand
+-You are responsible for the first and the second level support
+-You take care of the security of data, accounts, and systems
+-You always encounter problems in a solution-oriented manner and are the first point of contact for our team with regard to system issues at all times
+
+**Skills**
+-You have completed training or degree with a focus on IT administration and have already gained solid professional experience
+-You are a professional in dealing with Mac, Linux and Windows operating systems
+-You are well-versed in the administration and configuration of web services such as Atlassian, Slack, and Google for Business
+-Information security is not just your hobby, but your passion
+-You have expert methodical experience in the maintenance and error elimination process as well as with professional IT operating processes
+-As a communicative personality, you approach problems proactively and independently – nothing is unsolvable for you, and if it happens, you know where to reach to find solutions
+-Automation/scripting with Python or another language as well as knowledge of cloud hosting are an advantage
+-Great communication skills and fluency in English, German language as a bonus
+-In addition, you have a great personality and – like us – bring a good mood and joy",3111,False,True,Supports a cloud commerce platform and coordinates operational needs across organizational stakeholders.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → Project Manager,58f4b6c2-ba44-52f8-b11d-00954b7e38ca,Product Manager,Product Manager,Project Manager,Jr. Product | Business Analyst,"YOUR ROLE will be to assist the Product Head  in:
+
+- Successful delivery of quality projects.
+- Accept completed work as “fit for Customer”.
+- Continuous evaluation of priorities and backlog.
+- Develop and manage the product backlog high-level features beyond the current execution window.
+- Develop the product’s requirements, project plans, and associated documentation, etc.
+- Prepare certification documentation and reports. 
+- Evaluate priorities and backlog.
+- Investigate complaints brought forward by customers.
+- Develop and implement a company-wide go-to-market plan, working with all departments to execute KPIs.
+- Analyzing the market trends, competitor forces, and regional and global industry regulations.
+- Keep up-to-date with the latest innovative trends and best practices.
+- Assist company management in resolving issues.
+- Preparing the SCRUM  ceremony's dashboards.
+
+The perks:
+
+- Awesome projects in the travel industry and challenging tasks
+- The positive environment and friendly team
+- Training conferences and workshops
+- Paid time off every year
+- Competitive salary
+- Corporate events
+- Employment Type
+- Full-time",1167,True,True,"Assists product leadership with project delivery, backlog priorities, requirements, and go-to-market work.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → Project Manager,9766e36a-f466-58c4-bb89-e83fbcda8c62,Product Manager,Product Manager,Project Manager,Senior Product Manager (Portugal),"Client: Japanese multinational conglomerate corporation headquartered in Chiyoda, Tokyo, Japan. 
+
+Job responsibilities:
+Define the product strategy and roadmap
+Manage the product throughout its lifecycle from concept to end-of-life
+Understand our context, think about the big picture, and how we achieve it through our product offering.
+Deeply understand different customer personas, the market, competitive landscape, and the whole ecosystem.
+Represent the customer to the engineering team. Ensure that engineering, product and project management teams are working as ONE to deliver customer satisfaction.
+Take ownership of the implementation and maintenance of product lines/features.
+Take complete ownership of assigned product lines/features from concept to end of life.
+Evangelize the product internally and externally
+Own product KPIs in alignment with engineering. Own product adoption.
+Closely work with the customer success teams to evolve the definition of “Ideal Customer Profile” and their “definition of success”. Help reduce “time to value/success” with help from customer success teams.
+Ensure documentation of all critical user/workflows and core processes.
+Ensure alignment between support and engineering and own “Platform-issues” KPIs.
+Own the design guidelines for the product and ensure its adherence and consistency. Own product UI/UX.
+Work with internal stakeholders and third parties to assess and establish partnerships
+Perform product demos to internal teams (and customers if needed)
+
+Skills Required:
+Energy and Execution
+Strong sense of ownership and accountability.
++5 years of experience with Product Management
+Technical acumen
+Constructive and Critical thinker with Analytical mindset
+Team player
+Can think big and small.",1780,True,True,"Defines product strategy and roadmap, manages the product lifecycle, and represents customer needs.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → Project Manager,7538910e-bf8e-594d-9d3c-a35cc85e9d2b,Product Manager,Product Manager,Project Manager,Product Owner (LeadGen Platform),"- Balance of deep technical knowledge and business acumen to be able to translate business needs to technology.
+ - Proactive, self-starter with excellent project management skills and ability to manage multiple tasks effectively
+ - Excellent communication skills
+ - High degree of organization, individual initiative, and personal accountability
+ - Education, Experience, and Licensing 
+
+**Requirements: **
+ - At least 4 year of experience in Product Management and/or Product Development
+ - Proven track record of delivering data driven solutions with a data driven mindset
+ - Experience successfully driving end-to-end delivery of data and intelligence solutions, including a wide variety of mechanisms, e.g. dashboards, APIs, real time alerts, etc.
+ - Experience in programming PHP/LARAVEL to give direction/input to the development team and do code checks.
+
+**Engagement description: **
+ - Overall responsibility for product innovation and end-to-end launch of products
+ - Collaborate with all key players to co-develop a roadmap and drive products and features from concept to launch in a fast-paced environment
+ - Work with cross-functional teams and various stakeholders, including analytics, design/user experience, engineering, and user enablement
+ - Turn data insights into products with actionable outcomes to the ultimate customer
+ - Work in an Agile environment and continuously reviews the business needs, refines priorities, outlines milestones and deliverables, and identify opportunities and risks
+ - Develop, own and execute product roadmap
+ - Translate product roadmap features into well-defined product requirements including features, user stories, and acceptance test criteria
+ - Prioritize and maintain the sprint backlog for assigned products, balancing the requirements of stakeholders
+
+**Perks for you**:
+ - Comfortable, friendly and supportive working atmosphere
+ - Possibility for personal and professional growth within a stable environment
+ - Permanent employment and competitive salary",2041,True,True,Translates business needs into product and data-solution delivery priorities and requirements.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → Project Manager,a37bb29f-c5c3-5958-8f9a-382d0d7205e8,Product Manager,Product Manager,Project Manager,Product Manager,"Our ideal candidate:
+
+- Understand general relationships of the product with other components of the system;
+- Understand the product impact on company's business;
+- Knowledge holder about the current product status and plans for its development;
+- Understand the product value in the current status, the importance and necessity of its improvements, their value for business and company strategic goals achievement. Based on these criteria, together with Product Manager prioritizes the release backlog;
+- Manage the behavior analysis process of product users;
+- Responsible for the detailed description of the tasks at the BRD level and the coordination of the acceptance criteria with the development team;
+- Advise developers (System Analyst) on the correct implementation of tasks during the work process and available for consultance during the release process;
+- Have the right to propose changes for consideration and further coordination with the Project Manager within the sprint and release depending on the business need;
+- Responsible for the acceptance of tasks in accordance with agreed and approved documentary requirements;
+- Expand and detail BRD and describe detailed use-cases with the help of software.
+
+We are interested in:
+
+- 3+ years of experience in product management within dynamic, agile environments. Consumer-facing product experience or complex platform are preferred;
+- Proven ability to collaborate with cross-functional teams like engineering, design, marketing and data science;
+- Excellent interpersonal skills with ability to influence leadership and other teams;
+- Strong business sense and a real passion for using data to make decisions.
+
+Main goals:
+
+- Improve behavioral and business metrics overtime, starting with a comparison to the current platform;
+- Customer needs satisfaction research and control;
+- Control and delivery product tasks in time.
+
+Being a member of PMLAB team means:
+
+- Challenging tasks with great opportunity to level up your skills;
+- Knowledge sharing atmosphere (you have a chance to be a speaker in our internal meetups);
+- 20 working days of paid vacation;
+- 100% paid sick leaves;
+- Medical insurance;
+- Weekly events of a corporate employee’s work-life balance program with culture, arts, soft skills lections;
+- Sport competitions (football, PubQuiz, basketball, table tennis, bowling championships every year);
+- Individual annual training budget with an opportunity to visit paid conferences, training sessions, workshops etc.;
+- Corporate library and subscriptions for Pluralsight and Safari online;
+- Unlimited good mood and support!",2649,True,True,"Tracks product status and improvement priorities, analyzes user behavior, and prepares requirements.",,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence
+Product Manager → Project Manager,b6353df7-eecd-5a10-8540-a54f42b29a29,Product Manager,Product Manager,Project Manager,Senior Technical Product Manager,"Why is Nordstrom one of the greatest? Founded in 1901, it prospered through two world wars, Spanish flu, Great Depression, the 2020 pandemic and still produces the highest quality products and service for their customers.
+
+Nordstrom is based in Seattle with a technology orientation rooted in Silicon Valley. You will work with the cleverest minds, who are eager to build superb services to match business requirements and win market share.
+
+And then there's Zoolatech! Just imagine a workplace and a team environment that you never want to leave once you have found it. Sound enticing? Apply to our position today and we can get you there.
+
+What would you do as a Technical Program Manager in Zoolatech?
+
+Technical Program Manager is part of a key team of Technology professionals.
+The Technical Program Manager partners with internal stakeholders to develop, design, build and launch technology solutions. This position interacts with people in both business and technical roles to create specifications and resolve issues with an eye toward continuous improvement. 
+
+Responsibilities
+
+A day in the life…
+
+Manage products impacting enterprise and possess a track record of successful delivery preferably in multiple areas
+
+Demonstrate a track record of using data and defining KPIs to measure success from both a business and technology perspective
+
+Actively manage capability using data to drive decisions, and lead change and progress within a broader team
+
+Create valid estimates of effort to complete engineering work streams and understand the relationship between technology and business, and how technology enables core capabilities and business unlocks
+
+Understand the relationship between technology and the business and how technology enables core capabilities and business unlocks
+
+Skills Required
+
+Must have:
+
+5+ years of business and/or system analysis
+
+BS in Computer science and analysis or related field
+
+Has experience with SQL
+
+Proficiency in Agile Product Methodologies
+
+Strong proactive communication skills and an ability to work collaboratively
+
+Experience in working with teams across different geographic locations
+
+Strong technical acumen to think critically, converse and problem solve with engineering counterparts
+
+System thinking and functional decomposition skills
+
+Demonstrated hands-on experience of risk management
+
+Knowledge of requirements management tools (JIRA, Confluence)
+
+Experience in identifying and resolving complex issues, with the ability to break down complex data situations into simple steps toward analysis and recommendations
+
+Demonstrated negotiation and facilitation skills
+
+Demonstrated ability to deliver medium size projects with multiple stakeholders, tight timelines and shifting priorities
+
+Skilled in collecting business and systems requirements from internal and external customers, driving project schedules from design to release, communicating to stakeholders and executives, and managing the production launch
+
+
+Nice to have:
+
+Experience in productizing analytics development and building the data pipeline using ETL or data streaming
+
+Project management in analytics, big data engineering, or software development, including big data infrastructure, and/or data architecture
+
+Familiarity with Python, Spark, Hive, Kafka, and other Big Data technologies
+
+Strong sense of ownership, urgency, and drive",3433,True,False,Guides technical product direction for digital services in a commerce-oriented business context.,,correct_source_label | ambiguous_role_overlap | likely_noisy_or_mislabeled | insufficient_evidence

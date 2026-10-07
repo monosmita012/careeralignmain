@@ -1,0 +1,100 @@
+[
+  {
+    "job_id": "DEMO-DA-001",
+    "title": "Junior Data Analyst",
+    "career_role": "Data Analyst",
+    "company": "CareerAlign Demo Labs",
+    "skills": ["Python", "SQL", "Pandas", "Microsoft Excel", "Power BI"]
+  },
+  {
+    "job_id": "DEMO-DA-002",
+    "title": "Business Intelligence Analyst",
+    "career_role": "Data Analyst",
+    "company": "SkillTwin Technologies",
+    "skills": ["SQL", "Tableau", "Microsoft Excel", "Business Analysis"]
+  },
+  {
+    "job_id": "DEMO-DE-001",
+    "title": "Junior Data Engineer",
+    "career_role": "Data Engineer",
+    "company": "FuturePath Systems",
+    "skills": ["Python", "SQL", "Apache Spark", "Git"]
+  },
+  {
+    "job_id": "DEMO-DE-002",
+    "title": "Cloud Data Engineer",
+    "career_role": "Data Engineer",
+    "company": "CareerAlign Demo Labs",
+    "skills": ["Python", "SQL", "AWS", "Apache Airflow", "Docker"]
+  },
+  {
+    "job_id": "DEMO-BA-001",
+    "title": "Associate Business Analyst",
+    "career_role": "Business Analyst",
+    "company": "SkillTwin Technologies",
+    "skills": ["Business Analysis", "SQL", "Microsoft Excel", "Jira", "Agile"]
+  },
+  {
+    "job_id": "DEMO-BA-002",
+    "title": "Business Process Analyst",
+    "career_role": "Business Analyst",
+    "company": "FuturePath Systems",
+    "skills": ["Business Analysis", "Microsoft Excel", "Scrum", "Jira"]
+  },
+  {
+    "job_id": "DEMO-PM-001",
+    "title": "Associate Project Manager",
+    "career_role": "Project Manager",
+    "company": "CareerAlign Demo Labs",
+    "skills": ["Project Management", "Agile", "Jira", "Scrum", "Microsoft Excel"]
+  },
+  {
+    "job_id": "DEMO-PM-002",
+    "title": "Technical Project Coordinator",
+    "career_role": "Project Manager",
+    "company": "SkillTwin Technologies",
+    "skills": ["Project Management", "GitHub", "Jira", "Agile"]
+  },
+  {
+    "job_id": "DEMO-PR-001",
+    "title": "Associate Product Manager",
+    "career_role": "Product Manager",
+    "company": "FuturePath Systems",
+    "skills": ["Product Management", "Business Analysis", "Agile", "Jira", "SQL"]
+  },
+  {
+    "job_id": "DEMO-PR-002",
+    "title": "Product Operations Associate",
+    "career_role": "Product Manager",
+    "company": "CareerAlign Demo Labs",
+    "skills": ["Product Management", "SQL", "Tableau", "Microsoft Excel"]
+  },
+  {
+    "job_id": "DEMO-QA-001",
+    "title": "Junior QA Automation Engineer",
+    "career_role": "QA Automation Engineer",
+    "company": "SkillTwin Technologies",
+    "skills": ["Python", "Selenium", "Test Automation", "Git", "pytest"]
+  },
+  {
+    "job_id": "DEMO-QA-002",
+    "title": "Software Test Engineer",
+    "career_role": "QA Automation Engineer",
+    "company": "FuturePath Systems",
+    "skills": ["Java", "Selenium", "Test Automation", "Postman", "Jira"]
+  },
+  {
+    "job_id": "DEMO-SA-001",
+    "title": "Junior System Administrator",
+    "career_role": "System Administrator",
+    "company": "CareerAlign Demo Labs",
+    "skills": ["Linux", "Bash", "AWS", "Docker", "Git"]
+  },
+  {
+    "job_id": "DEMO-SA-002",
+    "title": "Systems Operations Administrator",
+    "career_role": "System Administrator",
+    "company": "SkillTwin Technologies",
+    "skills": ["Linux", "Bash", "Terraform", "AWS", "GitHub"]
+  }
+]

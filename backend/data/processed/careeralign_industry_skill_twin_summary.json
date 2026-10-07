@@ -1,0 +1,1362 @@
+{
+  "source_path": "C:\\Users\\monos\\Downloads\\careeralign-main\\careeralign-main\\backend\\data\\processed\\careeralign_job_skills.parquet",
+  "output_path": "C:\\Users\\monos\\Downloads\\careeralign-main\\careeralign-main\\backend\\data\\processed\\careeralign_industry_skill_twin.parquet",
+  "source_row_count": 21195,
+  "number_of_roles": 7,
+  "number_of_canonical_skills": 93,
+  "expected_matrix_size": 651,
+  "actual_matrix_size": 651,
+  "records_with_skills": 19379,
+  "records_with_zero_skills": 1816,
+  "priority_thresholds": {
+    "core": "role_frequency_percentage >= 30",
+    "common": "15 <= role_frequency_percentage < 30",
+    "supporting": "5 <= role_frequency_percentage < 15",
+    "occasional": "role_frequency_percentage < 5",
+    "interpretation": "Initial CareerAlign thresholds for observed descriptions; not universal industry standards."
+  },
+  "frequency_definition": "Record frequency: a skill counts at most once per job-description record.",
+  "role_association_definition": "(role_record_count / role_record_total) / (all_role_record_count / all_role_record_total); zero if the overall count is zero.",
+  "role_summaries": {
+    "Business Analyst": {
+      "role_record_total": 3679,
+      "top_15_skills": [
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 1393,
+          "frequency_percentage": 37.86354987768416,
+          "priority": "core"
+        },
+        {
+          "skill": "Business Analysis",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 1167,
+          "frequency_percentage": 31.72057624354444,
+          "priority": "core"
+        },
+        {
+          "skill": "Jira",
+          "category": "Tools / Version Control",
+          "record_count": 948,
+          "frequency_percentage": 25.767871704267463,
+          "priority": "common"
+        },
+        {
+          "skill": "Scrum",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 842,
+          "frequency_percentage": 22.88665398206034,
+          "priority": "common"
+        },
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 782,
+          "frequency_percentage": 21.255776026094047,
+          "priority": "common"
+        },
+        {
+          "skill": "Microsoft Excel",
+          "category": "Data Analysis / BI",
+          "record_count": 384,
+          "frequency_percentage": 10.43761891818429,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Project Management",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 331,
+          "frequency_percentage": 8.997010057080729,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Product Management",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 246,
+          "frequency_percentage": 6.68659961946181,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Power BI",
+          "category": "Data Analysis / BI",
+          "record_count": 212,
+          "frequency_percentage": 5.762435444414242,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Python",
+          "category": "Programming Languages",
+          "record_count": 204,
+          "frequency_percentage": 5.544985050285404,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Tableau",
+          "category": "Data Analysis / BI",
+          "record_count": 192,
+          "frequency_percentage": 5.218809459092145,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Microsoft Azure",
+          "category": "DevOps / Cloud",
+          "record_count": 163,
+          "frequency_percentage": 4.430551780375102,
+          "priority": "occasional"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 139,
+          "frequency_percentage": 3.778200597988584,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Java",
+          "category": "Programming Languages",
+          "record_count": 129,
+          "frequency_percentage": 3.5063876053275345,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Machine Learning",
+          "category": "Machine Learning / AI",
+          "record_count": 121,
+          "frequency_percentage": 3.2889372111986956,
+          "priority": "occasional"
+        }
+      ],
+      "priority_counts": {
+        "core": 2,
+        "common": 3,
+        "supporting": 6,
+        "occasional": 82
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "Business Analysis",
+          "role_association_ratio": 4.241751504617819,
+          "role_frequency_percentage": 31.72057624354444,
+          "all_role_frequency_percentage": 7.478178815758434,
+          "record_count": 1167
+        },
+        {
+          "skill": "Microsoft Excel",
+          "role_association_ratio": 2.218910059888827,
+          "role_frequency_percentage": 10.43761891818429,
+          "all_role_frequency_percentage": 4.703939608398207,
+          "record_count": 384
+        },
+        {
+          "skill": "Power BI",
+          "role_association_ratio": 1.6939642058857125,
+          "role_frequency_percentage": 5.762435444414242,
+          "all_role_frequency_percentage": 3.4017456947393256,
+          "record_count": 212
+        },
+        {
+          "skill": "Tableau",
+          "role_association_ratio": 1.5405663855913372,
+          "role_frequency_percentage": 5.218809459092145,
+          "all_role_frequency_percentage": 3.3875914130691203,
+          "record_count": 192
+        },
+        {
+          "skill": "Next.js",
+          "role_association_ratio": 1.3644654582910118,
+          "role_frequency_percentage": 0.2446316933949443,
+          "all_role_frequency_percentage": 0.17928756782259966,
+          "record_count": 9
+        },
+        {
+          "skill": "Looker",
+          "role_association_ratio": 1.2674368034792063,
+          "role_frequency_percentage": 0.8969828757814623,
+          "all_role_frequency_percentage": 0.7077140835102618,
+          "record_count": 33
+        },
+        {
+          "skill": "Jira",
+          "role_association_ratio": 1.2303447640728744,
+          "role_frequency_percentage": 25.767871704267463,
+          "all_role_frequency_percentage": 20.943618778013683,
+          "record_count": 948
+        },
+        {
+          "skill": "SQLite",
+          "role_association_ratio": 1.1522152758901876,
+          "role_frequency_percentage": 0.05436259853220984,
+          "all_role_frequency_percentage": 0.04718093890068412,
+          "record_count": 2
+        },
+        {
+          "skill": "Generative AI",
+          "role_association_ratio": 1.1522152758901876,
+          "role_frequency_percentage": 0.02718129926610492,
+          "all_role_frequency_percentage": 0.02359046945034206,
+          "record_count": 1
+        },
+        {
+          "skill": "Product Management",
+          "role_association_ratio": 1.0761008271411774,
+          "role_frequency_percentage": 6.68659961946181,
+          "all_role_frequency_percentage": 6.213729653220099,
+          "record_count": 246
+        }
+      ]
+    },
+    "Data Analyst": {
+      "role_record_total": 767,
+      "top_15_skills": [
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 514,
+          "frequency_percentage": 67.01434159061279,
+          "priority": "core"
+        },
+        {
+          "skill": "Python",
+          "category": "Programming Languages",
+          "record_count": 340,
+          "frequency_percentage": 44.32855280312907,
+          "priority": "core"
+        },
+        {
+          "skill": "Power BI",
+          "category": "Data Analysis / BI",
+          "record_count": 274,
+          "frequency_percentage": 35.72359843546285,
+          "priority": "core"
+        },
+        {
+          "skill": "Tableau",
+          "category": "Data Analysis / BI",
+          "record_count": 274,
+          "frequency_percentage": 35.72359843546285,
+          "priority": "core"
+        },
+        {
+          "skill": "Microsoft Excel",
+          "category": "Data Analysis / BI",
+          "record_count": 207,
+          "frequency_percentage": 26.988265971316817,
+          "priority": "common"
+        },
+        {
+          "skill": "ETL",
+          "category": "Data Engineering",
+          "record_count": 127,
+          "frequency_percentage": 16.558018252933508,
+          "priority": "common"
+        },
+        {
+          "skill": "Machine Learning",
+          "category": "Machine Learning / AI",
+          "record_count": 107,
+          "frequency_percentage": 13.95045632333768,
+          "priority": "supporting"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 83,
+          "frequency_percentage": 10.821382007822686,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 83,
+          "frequency_percentage": 10.821382007822686,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Google BigQuery",
+          "category": "Data Engineering",
+          "record_count": 81,
+          "frequency_percentage": 10.560625814863103,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Microsoft Azure",
+          "category": "DevOps / Cloud",
+          "record_count": 65,
+          "frequency_percentage": 8.47457627118644,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Artificial Intelligence",
+          "category": "Machine Learning / AI",
+          "record_count": 60,
+          "frequency_percentage": 7.822685788787484,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Looker",
+          "category": "Data Analysis / BI",
+          "record_count": 59,
+          "frequency_percentage": 7.6923076923076925,
+          "priority": "supporting"
+        },
+        {
+          "skill": "PostgreSQL",
+          "category": "Databases",
+          "record_count": 56,
+          "frequency_percentage": 7.301173402868318,
+          "priority": "supporting"
+        },
+        {
+          "skill": "MySQL",
+          "category": "Databases",
+          "record_count": 48,
+          "frequency_percentage": 6.258148631029988,
+          "priority": "supporting"
+        }
+      ],
+      "priority_counts": {
+        "core": 4,
+        "common": 2,
+        "supporting": 14,
+        "occasional": 73
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "Looker",
+          "role_association_ratio": 10.86923076923077,
+          "role_frequency_percentage": 7.6923076923076925,
+          "all_role_frequency_percentage": 0.7077140835102618,
+          "record_count": 59
+        },
+        {
+          "skill": "Tableau",
+          "role_association_ratio": 10.5454271426133,
+          "role_frequency_percentage": 35.72359843546285,
+          "all_role_frequency_percentage": 3.3875914130691203,
+          "record_count": 274
+        },
+        {
+          "skill": "Power BI",
+          "role_association_ratio": 10.501548804988001,
+          "role_frequency_percentage": 35.72359843546285,
+          "all_role_frequency_percentage": 3.4017456947393256,
+          "record_count": 274
+        },
+        {
+          "skill": "NumPy",
+          "role_association_ratio": 9.869156267461353,
+          "role_frequency_percentage": 3.911342894393742,
+          "all_role_frequency_percentage": 0.3963198867657466,
+          "record_count": 30
+        },
+        {
+          "skill": "Pandas",
+          "role_association_ratio": 7.0728953250139694,
+          "role_frequency_percentage": 5.60625814863103,
+          "all_role_frequency_percentage": 0.7926397735314932,
+          "record_count": 43
+        },
+        {
+          "skill": "Google BigQuery",
+          "role_association_ratio": 6.450503289510762,
+          "role_frequency_percentage": 10.560625814863103,
+          "all_role_frequency_percentage": 1.6371785798537393,
+          "record_count": 81
+        },
+        {
+          "skill": "scikit-learn",
+          "role_association_ratio": 6.140808344198175,
+          "role_frequency_percentage": 1.0430247718383312,
+          "all_role_frequency_percentage": 0.16985138004246286,
+          "record_count": 8
+        },
+        {
+          "skill": "Microsoft Excel",
+          "role_association_ratio": 5.7373750979143425,
+          "role_frequency_percentage": 26.988265971316817,
+          "all_role_frequency_percentage": 4.703939608398207,
+          "record_count": 207
+        },
+        {
+          "skill": "dbt",
+          "role_association_ratio": 5.0845893089960885,
+          "role_frequency_percentage": 2.9986962190352022,
+          "all_role_frequency_percentage": 0.5897617362585515,
+          "record_count": 23
+        },
+        {
+          "skill": "Snowflake",
+          "role_association_ratio": 3.817805187675839,
+          "role_frequency_percentage": 5.475880052151238,
+          "all_role_frequency_percentage": 1.4343005425807973,
+          "record_count": 42
+        }
+      ]
+    },
+    "Data Engineer": {
+      "role_record_total": 1451,
+      "top_15_skills": [
+        {
+          "skill": "Python",
+          "category": "Programming Languages",
+          "record_count": 958,
+          "frequency_percentage": 66.02343211578223,
+          "priority": "core"
+        },
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 916,
+          "frequency_percentage": 63.128876636802204,
+          "priority": "core"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 642,
+          "frequency_percentage": 44.24534803583736,
+          "priority": "core"
+        },
+        {
+          "skill": "ETL",
+          "category": "Data Engineering",
+          "record_count": 573,
+          "frequency_percentage": 39.49000689179876,
+          "priority": "core"
+        },
+        {
+          "skill": "Apache Spark",
+          "category": "Data Engineering",
+          "record_count": 567,
+          "frequency_percentage": 39.07649896623019,
+          "priority": "core"
+        },
+        {
+          "skill": "Apache Airflow",
+          "category": "Data Engineering",
+          "record_count": 373,
+          "frequency_percentage": 25.706409372846313,
+          "priority": "common"
+        },
+        {
+          "skill": "Microsoft Azure",
+          "category": "DevOps / Cloud",
+          "record_count": 366,
+          "frequency_percentage": 25.223983459682977,
+          "priority": "common"
+        },
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 352,
+          "frequency_percentage": 24.259131633356308,
+          "priority": "common"
+        },
+        {
+          "skill": "Apache Kafka",
+          "category": "Data Engineering",
+          "record_count": 330,
+          "frequency_percentage": 22.742935906271537,
+          "priority": "common"
+        },
+        {
+          "skill": "Java",
+          "category": "Programming Languages",
+          "record_count": 300,
+          "frequency_percentage": 20.67539627842867,
+          "priority": "common"
+        },
+        {
+          "skill": "Machine Learning",
+          "category": "Machine Learning / AI",
+          "record_count": 295,
+          "frequency_percentage": 20.33080634045486,
+          "priority": "common"
+        },
+        {
+          "skill": "Google Cloud",
+          "category": "DevOps / Cloud",
+          "record_count": 293,
+          "frequency_percentage": 20.192970365265335,
+          "priority": "common"
+        },
+        {
+          "skill": "Kubernetes",
+          "category": "DevOps / Cloud",
+          "record_count": 238,
+          "frequency_percentage": 16.40248104755341,
+          "priority": "common"
+        },
+        {
+          "skill": "PostgreSQL",
+          "category": "Databases",
+          "record_count": 229,
+          "frequency_percentage": 15.782219159200551,
+          "priority": "common"
+        },
+        {
+          "skill": "Docker",
+          "category": "DevOps / Cloud",
+          "record_count": 228,
+          "frequency_percentage": 15.71330117160579,
+          "priority": "common"
+        }
+      ],
+      "priority_counts": {
+        "core": 5,
+        "common": 10,
+        "supporting": 15,
+        "occasional": 63
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "Apache Airflow",
+          "role_association_ratio": 12.107718814610614,
+          "role_frequency_percentage": 25.706409372846313,
+          "all_role_frequency_percentage": 2.1231422505307855,
+          "record_count": 373
+        },
+        {
+          "skill": "Apache Spark",
+          "role_association_ratio": 11.7146590606683,
+          "role_frequency_percentage": 39.07649896623019,
+          "all_role_frequency_percentage": 3.335692380278368,
+          "record_count": 567
+        },
+        {
+          "skill": "Databricks",
+          "role_association_ratio": 11.497720929915184,
+          "role_frequency_percentage": 10.957960027567196,
+          "all_role_frequency_percentage": 0.9530549657938193,
+          "record_count": 159
+        },
+        {
+          "skill": "TensorFlow",
+          "role_association_ratio": 10.731796509092954,
+          "role_frequency_percentage": 2.4810475534114405,
+          "all_role_frequency_percentage": 0.23118660061335222,
+          "record_count": 36
+        },
+        {
+          "skill": "Snowflake",
+          "role_association_ratio": 10.426826780079075,
+          "role_frequency_percentage": 14.955203308063405,
+          "all_role_frequency_percentage": 1.4343005425807973,
+          "record_count": 217
+        },
+        {
+          "skill": "dbt",
+          "role_association_ratio": 10.283445899379739,
+          "role_frequency_percentage": 6.064782908339077,
+          "all_role_frequency_percentage": 0.5897617362585515,
+          "record_count": 88
+        },
+        {
+          "skill": "PyTorch",
+          "role_association_ratio": 10.180753085646263,
+          "role_frequency_percentage": 1.5851137146795313,
+          "all_role_frequency_percentage": 0.1556970983722576,
+          "record_count": 23
+        },
+        {
+          "skill": "FastAPI",
+          "role_association_ratio": 9.9328738800827,
+          "role_frequency_percentage": 1.1716057891109581,
+          "all_role_frequency_percentage": 0.11795234725171032,
+          "record_count": 17
+        },
+        {
+          "skill": "scikit-learn",
+          "role_association_ratio": 9.33235699517574,
+          "role_frequency_percentage": 1.5851137146795313,
+          "all_role_frequency_percentage": 0.16985138004246286,
+          "record_count": 23
+        },
+        {
+          "skill": "ETL",
+          "role_association_ratio": 8.951772150499194,
+          "role_frequency_percentage": 39.49000689179876,
+          "all_role_frequency_percentage": 4.411417787213965,
+          "record_count": 573
+        }
+      ]
+    },
+    "Product Manager": {
+      "role_record_total": 1939,
+      "top_15_skills": [
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 806,
+          "frequency_percentage": 41.56781846312532,
+          "priority": "core"
+        },
+        {
+          "skill": "Product Management",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 669,
+          "frequency_percentage": 34.50232078390923,
+          "priority": "core"
+        },
+        {
+          "skill": "Scrum",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 500,
+          "frequency_percentage": 25.786487880350695,
+          "priority": "common"
+        },
+        {
+          "skill": "Jira",
+          "category": "Tools / Version Control",
+          "record_count": 316,
+          "frequency_percentage": 16.297060340381638,
+          "priority": "common"
+        },
+        {
+          "skill": "Project Management",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 314,
+          "frequency_percentage": 16.193914388860236,
+          "priority": "common"
+        },
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 143,
+          "frequency_percentage": 7.3749355337803,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Business Analysis",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 129,
+          "frequency_percentage": 6.65291387313048,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Artificial Intelligence",
+          "category": "Machine Learning / AI",
+          "record_count": 121,
+          "frequency_percentage": 6.2403300670448685,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Machine Learning",
+          "category": "Machine Learning / AI",
+          "record_count": 90,
+          "frequency_percentage": 4.641567818463126,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Microsoft Excel",
+          "category": "Data Analysis / BI",
+          "record_count": 80,
+          "frequency_percentage": 4.125838060856111,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Android",
+          "category": "Mobile Development",
+          "record_count": 70,
+          "frequency_percentage": 3.6101083032490973,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Tableau",
+          "category": "Data Analysis / BI",
+          "record_count": 70,
+          "frequency_percentage": 3.6101083032490973,
+          "priority": "occasional"
+        },
+        {
+          "skill": "iOS",
+          "category": "Mobile Development",
+          "record_count": 66,
+          "frequency_percentage": 3.403816400206292,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Python",
+          "category": "Programming Languages",
+          "record_count": 62,
+          "frequency_percentage": 3.1975244971634864,
+          "priority": "occasional"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 61,
+          "frequency_percentage": 3.145951521402785,
+          "priority": "occasional"
+        }
+      ],
+      "priority_counts": {
+        "core": 2,
+        "common": 3,
+        "supporting": 3,
+        "occasional": 85
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "Product Management",
+          "role_association_ratio": 5.552594449620016,
+          "role_frequency_percentage": 34.50232078390923,
+          "all_role_frequency_percentage": 6.213729653220099,
+          "record_count": 669
+        },
+        {
+          "skill": "Generative AI",
+          "role_association_ratio": 4.372356884992264,
+          "role_frequency_percentage": 0.1031459515214028,
+          "all_role_frequency_percentage": 0.02359046945034206,
+          "record_count": 2
+        },
+        {
+          "skill": "Tailwind CSS",
+          "role_association_ratio": 3.12311206070876,
+          "role_frequency_percentage": 0.1031459515214028,
+          "all_role_frequency_percentage": 0.03302665723047889,
+          "record_count": 2
+        },
+        {
+          "skill": "Next.js",
+          "role_association_ratio": 1.7259303493390517,
+          "role_frequency_percentage": 0.30943785456420836,
+          "all_role_frequency_percentage": 0.17928756782259966,
+          "record_count": 6
+        },
+        {
+          "skill": "Artificial Intelligence",
+          "role_association_ratio": 1.5237764489748384,
+          "role_frequency_percentage": 6.2403300670448685,
+          "all_role_frequency_percentage": 4.095305496579382,
+          "record_count": 121
+        },
+        {
+          "skill": "Express.js",
+          "role_association_ratio": 1.2766005503627047,
+          "role_frequency_percentage": 0.8251676121712224,
+          "all_role_frequency_percentage": 0.6463788629393725,
+          "record_count": 16
+        },
+        {
+          "skill": "Agile",
+          "role_association_ratio": 1.1273575333665273,
+          "role_frequency_percentage": 41.56781846312532,
+          "all_role_frequency_percentage": 36.87190375088464,
+          "record_count": 806
+        },
+        {
+          "skill": "Scrum",
+          "role_association_ratio": 1.0784226728966713,
+          "role_frequency_percentage": 25.786487880350695,
+          "all_role_frequency_percentage": 23.911299834866714,
+          "record_count": 500
+        },
+        {
+          "skill": "Tableau",
+          "role_association_ratio": 1.0656858702975573,
+          "role_frequency_percentage": 3.6101083032490973,
+          "all_role_frequency_percentage": 3.3875914130691203,
+          "record_count": 70
+        },
+        {
+          "skill": "Machine Learning",
+          "role_association_ratio": 1.0258397279700309,
+          "role_frequency_percentage": 4.641567818463126,
+          "all_role_frequency_percentage": 4.524652040575607,
+          "record_count": 90
+        }
+      ]
+    },
+    "Project Manager": {
+      "role_record_total": 4618,
+      "top_15_skills": [
+        {
+          "skill": "Project Management",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 2733,
+          "frequency_percentage": 59.181463837158944,
+          "priority": "core"
+        },
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 2401,
+          "frequency_percentage": 51.99220441749676,
+          "priority": "core"
+        },
+        {
+          "skill": "Scrum",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 1866,
+          "frequency_percentage": 40.407102641836296,
+          "priority": "core"
+        },
+        {
+          "skill": "Jira",
+          "category": "Tools / Version Control",
+          "record_count": 1417,
+          "frequency_percentage": 30.684278908618452,
+          "priority": "core"
+        },
+        {
+          "skill": "Business Analysis",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 232,
+          "frequency_percentage": 5.0238198354265915,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Product Management",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 214,
+          "frequency_percentage": 4.634040710264184,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Microsoft Excel",
+          "category": "Data Analysis / BI",
+          "record_count": 202,
+          "frequency_percentage": 4.374187960155912,
+          "priority": "occasional"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 132,
+          "frequency_percentage": 2.858380251190992,
+          "priority": "occasional"
+        },
+        {
+          "skill": "JavaScript",
+          "category": "Programming Languages",
+          "record_count": 130,
+          "frequency_percentage": 2.81507145950628,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Microsoft Azure",
+          "category": "DevOps / Cloud",
+          "record_count": 123,
+          "frequency_percentage": 2.6634906886097878,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Java",
+          "category": "Programming Languages",
+          "record_count": 109,
+          "frequency_percentage": 2.3603291468168037,
+          "priority": "occasional"
+        },
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 106,
+          "frequency_percentage": 2.295365959289736,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Artificial Intelligence",
+          "category": "Machine Learning / AI",
+          "record_count": 105,
+          "frequency_percentage": 2.27371156344738,
+          "priority": "occasional"
+        },
+        {
+          "skill": "React",
+          "category": "Frontend",
+          "record_count": 103,
+          "frequency_percentage": 2.2304027717626678,
+          "priority": "occasional"
+        },
+        {
+          "skill": "Android",
+          "category": "Mobile Development",
+          "record_count": 99,
+          "frequency_percentage": 2.143785188393244,
+          "priority": "occasional"
+        }
+      ],
+      "priority_counts": {
+        "core": 4,
+        "common": 0,
+        "supporting": 1,
+        "occasional": 88
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "Project Management",
+          "role_association_ratio": 3.483341088665881,
+          "role_frequency_percentage": 59.181463837158944,
+          "all_role_frequency_percentage": 16.989856098136354,
+          "record_count": 2733
+        },
+        {
+          "skill": "Scrum",
+          "role_association_ratio": 1.6898747839260464,
+          "role_frequency_percentage": 40.407102641836296,
+          "all_role_frequency_percentage": 23.911299834866714,
+          "record_count": 1866
+        },
+        {
+          "skill": "Jira",
+          "role_association_ratio": 1.4650896406131293,
+          "role_frequency_percentage": 30.684278908618452,
+          "all_role_frequency_percentage": 20.943618778013683,
+          "record_count": 1417
+        },
+        {
+          "skill": "Agile",
+          "role_association_ratio": 1.4100764844898832,
+          "role_frequency_percentage": 51.99220441749676,
+          "all_role_frequency_percentage": 36.87190375088464,
+          "record_count": 2401
+        },
+        {
+          "skill": "Express.js",
+          "role_association_ratio": 1.2060392055207643,
+          "role_frequency_percentage": 0.7795582503248158,
+          "all_role_frequency_percentage": 0.6463788629393725,
+          "record_count": 36
+        },
+        {
+          "skill": "Vue.js",
+          "role_association_ratio": 1.1078463583279818,
+          "role_frequency_percentage": 0.606323083585968,
+          "all_role_frequency_percentage": 0.5472988912479358,
+          "record_count": 28
+        },
+        {
+          "skill": "Microsoft Excel",
+          "role_association_ratio": 0.9298988346590227,
+          "role_frequency_percentage": 4.374187960155912,
+          "all_role_frequency_percentage": 4.703939608398207,
+          "record_count": 202
+        },
+        {
+          "skill": "PHP",
+          "role_association_ratio": 0.8135092495205098,
+          "role_frequency_percentage": 1.4508445214378518,
+          "all_role_frequency_percentage": 1.78343949044586,
+          "record_count": 67
+        },
+        {
+          "skill": "React Native",
+          "role_association_ratio": 0.8052016138223428,
+          "role_frequency_percentage": 0.43308791684712,
+          "all_role_frequency_percentage": 0.537862703467799,
+          "record_count": 20
+        },
+        {
+          "skill": "Flutter",
+          "role_association_ratio": 0.7888459560415765,
+          "role_frequency_percentage": 0.23819835426591596,
+          "all_role_frequency_percentage": 0.30195800896437835,
+          "record_count": 11
+        }
+      ]
+    },
+    "QA Automation Engineer": {
+      "role_record_total": 7047,
+      "top_15_skills": [
+        {
+          "skill": "Test Automation",
+          "category": "Testing / QA",
+          "record_count": 4471,
+          "frequency_percentage": 63.44543777493969,
+          "priority": "core"
+        },
+        {
+          "skill": "Selenium",
+          "category": "Testing / QA",
+          "record_count": 2923,
+          "frequency_percentage": 41.478643394352204,
+          "priority": "core"
+        },
+        {
+          "skill": "Java",
+          "category": "Programming Languages",
+          "record_count": 2782,
+          "frequency_percentage": 39.477791968213424,
+          "priority": "core"
+        },
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 2650,
+          "frequency_percentage": 37.604654462892015,
+          "priority": "core"
+        },
+        {
+          "skill": "JavaScript",
+          "category": "Programming Languages",
+          "record_count": 2239,
+          "frequency_percentage": 31.772385412232158,
+          "priority": "core"
+        },
+        {
+          "skill": "Python",
+          "category": "Programming Languages",
+          "record_count": 2036,
+          "frequency_percentage": 28.891726976018163,
+          "priority": "common"
+        },
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 1983,
+          "frequency_percentage": 28.139633886760322,
+          "priority": "common"
+        },
+        {
+          "skill": "Git",
+          "category": "Tools / Version Control",
+          "record_count": 1941,
+          "frequency_percentage": 27.543635589612602,
+          "priority": "common"
+        },
+        {
+          "skill": "Jenkins",
+          "category": "DevOps / Cloud",
+          "record_count": 1891,
+          "frequency_percentage": 26.834113807293885,
+          "priority": "common"
+        },
+        {
+          "skill": "Scrum",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 1661,
+          "frequency_percentage": 23.570313608627785,
+          "priority": "common"
+        },
+        {
+          "skill": "Jira",
+          "category": "Tools / Version Control",
+          "record_count": 1376,
+          "frequency_percentage": 19.526039449411098,
+          "priority": "common"
+        },
+        {
+          "skill": "Docker",
+          "category": "DevOps / Cloud",
+          "record_count": 1219,
+          "frequency_percentage": 17.298141052930323,
+          "priority": "common"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 1167,
+          "frequency_percentage": 16.56023839931886,
+          "priority": "common"
+        },
+        {
+          "skill": "Linux",
+          "category": "DevOps / Cloud",
+          "record_count": 1071,
+          "frequency_percentage": 15.197956577266922,
+          "priority": "common"
+        },
+        {
+          "skill": "REST API",
+          "category": "Backend",
+          "record_count": 1043,
+          "frequency_percentage": 14.80062437916844,
+          "priority": "supporting"
+        }
+      ],
+      "priority_counts": {
+        "core": 5,
+        "common": 9,
+        "supporting": 18,
+        "occasional": 61
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "Playwright",
+          "role_association_ratio": 3.0076628352490427,
+          "role_frequency_percentage": 3.377323683837094,
+          "all_role_frequency_percentage": 1.122906345836282,
+          "record_count": 238
+        },
+        {
+          "skill": "Cypress",
+          "role_association_ratio": 2.9903375885022156,
+          "role_frequency_percentage": 12.24634596282106,
+          "all_role_frequency_percentage": 4.095305496579382,
+          "record_count": 863
+        },
+        {
+          "skill": "Selenium",
+          "role_association_ratio": 2.984181421396113,
+          "role_frequency_percentage": 41.478643394352204,
+          "all_role_frequency_percentage": 13.899504600141544,
+          "record_count": 2923
+        },
+        {
+          "skill": "pytest",
+          "role_association_ratio": 2.9318394024276375,
+          "role_frequency_percentage": 4.938271604938271,
+          "all_role_frequency_percentage": 1.6843595187544234,
+          "record_count": 348
+        },
+        {
+          "skill": "JUnit",
+          "role_association_ratio": 2.907198105887905,
+          "role_frequency_percentage": 6.5701717042713215,
+          "all_role_frequency_percentage": 2.2599669733427694,
+          "record_count": 463
+        },
+        {
+          "skill": "Test Automation",
+          "role_association_ratio": 2.899991489410927,
+          "role_frequency_percentage": 63.44543777493969,
+          "all_role_frequency_percentage": 21.87780136824723,
+          "record_count": 4471
+        },
+        {
+          "skill": "Jest",
+          "role_association_ratio": 2.8952268414079563,
+          "role_frequency_percentage": 2.9232297431531147,
+          "all_role_frequency_percentage": 1.0096720924746403,
+          "record_count": 206
+        },
+        {
+          "skill": "Postman",
+          "role_association_ratio": 2.708573687134128,
+          "role_frequency_percentage": 13.750532141336738,
+          "all_role_frequency_percentage": 5.076669025713612,
+          "record_count": 969
+        },
+        {
+          "skill": "TypeScript",
+          "role_association_ratio": 2.6258610763702777,
+          "role_frequency_percentage": 9.564353625656308,
+          "all_role_frequency_percentage": 3.6423684831328145,
+          "record_count": 674
+        },
+        {
+          "skill": "C#",
+          "role_association_ratio": 2.5843427837196375,
+          "role_frequency_percentage": 14.034340854264226,
+          "all_role_frequency_percentage": 5.430526067468742,
+          "record_count": 989
+        }
+      ]
+    },
+    "System Administrator": {
+      "role_record_total": 1694,
+      "top_15_skills": [
+        {
+          "skill": "Linux",
+          "category": "DevOps / Cloud",
+          "record_count": 946,
+          "frequency_percentage": 55.84415584415584,
+          "priority": "core"
+        },
+        {
+          "skill": "AWS",
+          "category": "DevOps / Cloud",
+          "record_count": 483,
+          "frequency_percentage": 28.512396694214875,
+          "priority": "common"
+        },
+        {
+          "skill": "Python",
+          "category": "Programming Languages",
+          "record_count": 425,
+          "frequency_percentage": 25.088547815820544,
+          "priority": "common"
+        },
+        {
+          "skill": "Bash",
+          "category": "Programming Languages",
+          "record_count": 422,
+          "frequency_percentage": 24.911452184179456,
+          "priority": "common"
+        },
+        {
+          "skill": "Microsoft Azure",
+          "category": "DevOps / Cloud",
+          "record_count": 375,
+          "frequency_percentage": 22.136953955135773,
+          "priority": "common"
+        },
+        {
+          "skill": "Docker",
+          "category": "DevOps / Cloud",
+          "record_count": 289,
+          "frequency_percentage": 17.060212514757968,
+          "priority": "common"
+        },
+        {
+          "skill": "Jira",
+          "category": "Tools / Version Control",
+          "record_count": 289,
+          "frequency_percentage": 17.060212514757968,
+          "priority": "common"
+        },
+        {
+          "skill": "SQL",
+          "category": "Databases",
+          "record_count": 265,
+          "frequency_percentage": 15.643447461629279,
+          "priority": "common"
+        },
+        {
+          "skill": "Git",
+          "category": "Tools / Version Control",
+          "record_count": 238,
+          "frequency_percentage": 14.049586776859504,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Kubernetes",
+          "category": "DevOps / Cloud",
+          "record_count": 227,
+          "frequency_percentage": 13.400236127508855,
+          "priority": "supporting"
+        },
+        {
+          "skill": "MySQL",
+          "category": "Databases",
+          "record_count": 207,
+          "frequency_percentage": 12.219598583234948,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Jenkins",
+          "category": "DevOps / Cloud",
+          "record_count": 193,
+          "frequency_percentage": 11.393152302243212,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Terraform",
+          "category": "DevOps / Cloud",
+          "record_count": 159,
+          "frequency_percentage": 9.386068476977567,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Google Cloud",
+          "category": "DevOps / Cloud",
+          "record_count": 148,
+          "frequency_percentage": 8.736717827626919,
+          "priority": "supporting"
+        },
+        {
+          "skill": "Agile",
+          "category": "Project / Product / Business Analysis",
+          "record_count": 130,
+          "frequency_percentage": 7.674144037780402,
+          "priority": "supporting"
+        }
+      ],
+      "priority_counts": {
+        "core": 1,
+        "common": 7,
+        "supporting": 10,
+        "occasional": 75
+      },
+      "highest_role_association_skills": [
+        {
+          "skill": "SIEM",
+          "role_association_ratio": 6.25590318772137,
+          "role_frequency_percentage": 0.885478158205431,
+          "all_role_frequency_percentage": 0.14154281670205238,
+          "record_count": 15
+        },
+        {
+          "skill": "Bash",
+          "role_association_ratio": 5.647039882820145,
+          "role_frequency_percentage": 24.911452184179456,
+          "all_role_frequency_percentage": 4.411417787213965,
+          "record_count": 422
+        },
+        {
+          "skill": "Linux",
+          "role_association_ratio": 5.2887260192890215,
+          "role_frequency_percentage": 55.84415584415584,
+          "all_role_frequency_percentage": 10.559094125973106,
+          "record_count": 946
+        },
+        {
+          "skill": "Terraform",
+          "role_association_ratio": 4.985907803747858,
+          "role_frequency_percentage": 9.386068476977567,
+          "all_role_frequency_percentage": 1.8825194621372967,
+          "record_count": 159
+        },
+        {
+          "skill": "MySQL",
+          "role_association_ratio": 3.2093481037381,
+          "role_frequency_percentage": 12.219598583234948,
+          "all_role_frequency_percentage": 3.807501769285209,
+          "record_count": 207
+        },
+        {
+          "skill": "Redis",
+          "role_association_ratio": 2.8238451889020073,
+          "role_frequency_percentage": 3.837072018890201,
+          "all_role_frequency_percentage": 1.358811040339703,
+          "record_count": 65
+        },
+        {
+          "skill": "PHP",
+          "role_association_ratio": 2.714201383032552,
+          "role_frequency_percentage": 4.8406139315230226,
+          "all_role_frequency_percentage": 1.78343949044586,
+          "record_count": 82
+        },
+        {
+          "skill": "OWASP",
+          "role_association_ratio": 2.6811013661663012,
+          "role_frequency_percentage": 0.3541912632821724,
+          "all_role_frequency_percentage": 0.13210662892191555,
+          "record_count": 6
+        },
+        {
+          "skill": "Microsoft Azure",
+          "role_association_ratio": 2.5225416079521654,
+          "role_frequency_percentage": 22.136953955135773,
+          "all_role_frequency_percentage": 8.775654635527246,
+          "record_count": 375
+        },
+        {
+          "skill": "Elasticsearch",
+          "role_association_ratio": 2.439124708570065,
+          "role_frequency_percentage": 3.187721369539551,
+          "all_role_frequency_percentage": 1.3069120075489502,
+          "record_count": 54
+        }
+      ]
+    }
+  },
+  "validation_results": {
+    "source_record_count_is_21195": true,
+    "exactly_seven_roles": true,
+    "exactly_93_canonical_skills": true,
+    "matrix_has_651_rows": true,
+    "one_row_per_role_skill_pair": true,
+    "all_skills_belong_to_taxonomy": true,
+    "role_totals_match_source": true,
+    "role_counts_do_not_exceed_totals": true,
+    "overall_counts_do_not_exceed_source": true,
+    "frequencies_match_counts": true,
+    "association_ratios_match_frequencies": true,
+    "priority_labels_match_thresholds": true,
+    "written_matrix_has_651_rows": true,
+    "written_matrix_has_unique_role_skill_pairs": true,
+    "source_dataset_unchanged": true,
+    "existing_classifier_artifacts_unchanged": true,
+    "taxonomy_extractor_and_api_unchanged": true,
+    "original_training_validation_parquets_unchanged": true,
+    "frontend_unchanged": true,
+    "existing_skill_extraction_dataset_unchanged": true,
+    "all_protected_files_unchanged": true
+  },
+  "interpretation_note": "Priority and association describe observed job-description evidence in this dataset, not universal industry requirements."
+}

@@ -1,0 +1,1713 @@
+{
+  "source_sample": "backend/data/processed/skill_extraction_sample_50.json",
+  "source_descriptions": "backend/data/processed/careeralign_seven_class_clean.parquet",
+  "sample_size": 50,
+  "methodology": {
+    "scope": "Human review of all 50 sampled descriptions and every skill emitted in the existing sample report.",
+    "matching_policy": "Each emitted skill was checked against its short verbatim source context. Missed skills were limited to clearly present names/aliases in the existing canonical taxonomy.",
+    "limitations": "Small sample; records were sampled for the prior extraction check and were not independently annotated before extraction. Results are not a formal or statistically representative accuracy estimate."
+  },
+  "summary": {
+    "sampled_records_audited": 50,
+    "extracted_skill_mentions_reviewed": 223,
+    "correct_extracted_mentions": 223,
+    "false_positive_extracted_mentions": 0,
+    "false_positive_rate": 0.0,
+    "missed_canonical_skills_found": 0,
+    "records_with_at_least_one_false_positive": 0,
+    "records_with_at_least_one_missed_skill": 0,
+    "top_false_positive_skills": [],
+    "top_missed_skills": []
+  },
+  "qualitative_assessment": {
+    "precision_in_this_sample": "No clear false positives were identified in the reviewed emitted mentions.",
+    "false_positive_concentration": "None observed.",
+    "missed_skill_concentration": "No clear missed canonical taxonomy skills were identified.",
+    "systematic_issue": "No obvious systematic issue was observed in this sample. Ambiguous short tokens such as C and Go appeared in non-skill contexts and were not emitted."
+  },
+  "records": [
+    {
+      "record_id": "201c076b-60e5-547e-a5ee-cad0a225f355",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation QA Engineer (Cypress)",
+      "audit_items": [
+        {
+          "skill": "Cypress",
+          "audit_type": "correct",
+          "evidence_phrase": "…ng** and **CI/CD**; - Experienced with **Cypress** and **REST API** tools; - Good English level…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "REST API",
+          "audit_type": "correct",
+          "evidence_phrase": "…**; - Experienced with **Cypress** and **REST API** tools; - Good English level (**Upper-Interme…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "7c2668af-304b-5cfa-a375-d82112dcfba1",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation QA Engineer (Java)",
+      "audit_items": [
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…ve a minimum of 3+ years of experience in test automation. - Experience in Web Application automation us…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…ience in Web Application automation using Selenium WebDriver with Java language binding. - Experi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…automation using Selenium WebDriver with Java language binding. - Experience in Mobile Appli…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "JUnit",
+          "audit_type": "correct",
+          "evidence_phrase": "…ools, automated test suites, Java (TestNG/JUnit) and Linux. - Excellent understanding of CI/CD…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Linux",
+          "audit_type": "correct",
+          "evidence_phrase": "…ated test suites, Java (TestNG/JUnit) and Linux. - Excellent understanding of CI/CD (Jenkins,…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jenkins",
+          "audit_type": "correct",
+          "evidence_phrase": "…nux. - Excellent understanding of CI/CD (Jenkins, GIT, etc.) and how QA/automation processes fit…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Git",
+          "audit_type": "correct",
+          "evidence_phrase": "…xcellent understanding of CI/CD (Jenkins, GIT, etc.) and how QA/automation processes fit into…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "768eadcb-2012-55e0-a910-098969926b49",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation QA Team Lead",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…able API that allows retrieving data with SQL-like queries and subscribing to PUSH updates.…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "C#",
+          "audit_type": "correct",
+          "evidence_phrase": "…mentor people. Our technologies? - F#/C# - ASP.NET Core / MongoDB / AeroSpike / Kafka…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": ".NET",
+          "audit_type": "correct",
+          "evidence_phrase": "…ople. Our technologies? - F#/C# - ASP.NET Core / MongoDB / AeroSpike / Kafka - And many…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "MongoDB",
+          "audit_type": "correct",
+          "evidence_phrase": "…technologies? - F#/C# - ASP.NET Core / MongoDB / AeroSpike / Kafka - And many other tools for…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Apache Kafka",
+          "audit_type": "correct",
+          "evidence_phrase": "…# - ASP.NET Core / MongoDB / AeroSpike / Kafka - And many other tools for load testing and mo…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…end execution - Good knowledge of SDLC, Agile methodologies (Scrum, Kanban) and XP practices…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…d knowledge of SDLC, Agile methodologies (Scrum, Kanban) and XP practices as well - Ability to…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…and integration testing - Experience in Jira The company offers benefits: - Being a par…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "40ab0726-9b8f-5dc6-b0ea-8f9e182365f9",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation Team Lead",
+      "audit_items": [
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…al background in Software development and Test Automation domain. Candidates with various levels of exper…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Node.js",
+          "audit_type": "correct",
+          "evidence_phrase": "…to the team. **Tech Stack:** Backend: Node.js, Redis, AWS, Microservice architecture, CI/CD.…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Redis",
+          "audit_type": "correct",
+          "evidence_phrase": "…eam. **Tech Stack:** Backend: Node.js, Redis, AWS, Microservice architecture, CI/CD. **Re…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…**Tech Stack:** Backend: Node.js, Redis, AWS, Microservice architecture, CI/CD. **Respons…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…igating issues in production; —Work with agile cross-functional teams that also include Client…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jenkins",
+          "audit_type": "correct",
+          "evidence_phrase": "…—Experience with setting CI pipelines in Jenkins. **Benefits: **— A global data-driven compa…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "e579da72-671e-59e3-b42d-609221939d04",
+      "career_role": "QA Automation Engineer",
+      "Position": "Automation Testing Engineer",
+      "audit_items": [
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…pest city in Europe. Technology stack: Java, PostgreSQL, Angular, Python. **Main requir…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "PostgreSQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…ity in Europe. Technology stack: Java, PostgreSQL, Angular, Python. **Main requirements:** *…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Angular",
+          "audit_type": "correct",
+          "evidence_phrase": "…e. Technology stack: Java, PostgreSQL, Angular, Python. **Main requirements:** * 3+ exper…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…hnology stack: Java, PostgreSQL, Angular, Python. **Main requirements:** * 3+ experience in…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…*Main requirements:** * 3+ experience in test automation * Aspiration to create QA processes in a team…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "a46aa952-2fb4-5024-b0b5-c70a2b4d0ebb",
+      "career_role": "System Administrator",
+      "Position": "AWS engineer",
+      "audit_items": [
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…imilar position; — Good understanding of AWS services, configuration, and management of serv…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "a018a65d-5d8c-5025-9271-e1edc1a398e6",
+      "career_role": "Business Analyst",
+      "Position": "Business Analyst",
+      "audit_items": [
+        {
+          "skill": ".NET",
+          "audit_type": "correct",
+          "evidence_phrase": "…cal task ➢ Use diagrams in Miro, diagrams.net or other platforms convenient for analysts and…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…eature **Requirements & Skills:** ➢ Jira ➢ SQL ➢ UML ➢ Confluence ➢ RACI matrix ➢ u…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…**Requirements & Skills:** ➢ Jira ➢ SQL ➢ UML ➢ Confluence ➢ RACI matrix ➢ user sto…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Microsoft Excel",
+          "audit_type": "correct",
+          "evidence_phrase": "…Change requirements management ➢ API ➢ Excel ➢ Ability to ask questions that help to unders…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "1aad0cde-b117-5636-a01b-3a3197727c96",
+      "career_role": "Business Analyst",
+      "Position": "Business Analyst (Automotive Domain)",
+      "audit_items": []
+    },
+    {
+      "record_id": "ea6a2b9c-5e99-5c80-925b-2f7fe9d0cdd0",
+      "career_role": "Business Analyst",
+      "Position": "Business Analyst / Regulatory Reporting (work in the office USA)",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…s — Must be able to read and write basic SQL — 3+ years as a business analyst in the P&C i…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Power BI",
+          "audit_type": "correct",
+          "evidence_phrase": "…P&C insurance industry — Experience with PowerBI is preferred but not required **GENERAL QUAL…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "e4a9809e-5328-5ea0-9e75-8c8c9e430238",
+      "career_role": "Project Manager",
+      "Position": "Channel Manager",
+      "audit_items": [
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…st planning on a weekly basis (Portfolio, Jira), prioritize requests inside a channel accordin…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "HTML",
+          "audit_type": "correct",
+          "evidence_phrase": "…gy and involved technologies for building HTML pages and Web sites); - Experience with proje…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "74625bea-0221-54e8-b1b1-e0991032ffef",
+      "career_role": "Data Analyst",
+      "Position": "Data and Data Visualization Analyst",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "Requirements: - SQL expert - can learn our data structure quickly a…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Looker",
+          "audit_type": "correct",
+          "evidence_phrase": "…SAP - Data visualization experience with Looker - can build dynamic dashboards in looker - Sub…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Tableau",
+          "audit_type": "correct",
+          "evidence_phrase": "…boards in looker - Substitute Looker for Tableau and ignore snowflake (it's great if they've wor…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Snowflake",
+          "audit_type": "correct",
+          "evidence_phrase": "…Substitute Looker for Tableau and ignore snowflake (it's great if they've worked in DataBricks but…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Databricks",
+          "audit_type": "correct",
+          "evidence_phrase": "…nowflake (it's great if they've worked in DataBricks but I don't care about what data warehouses/dat…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "dd53451a-ad90-58fe-8581-68e47a76d017",
+      "career_role": "Product Manager",
+      "Position": "Director of Product and Accounts",
+      "audit_items": [
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…nages and maintains documentation through Jira",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "c366fa84-aaf1-56b9-b818-ff23b7eb61f9",
+      "career_role": "System Administrator",
+      "Position": "Junior ERP System Administrator",
+      "audit_items": []
+    },
+    {
+      "record_id": "4b7765a8-961a-5d8c-b2f2-5e28e771eb65",
+      "career_role": "Project Manager",
+      "Position": "Junior Project Manager",
+      "audit_items": [
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…uirements** Fundamental understanding of agile methodologies (Scrum, Kanban, etc.); Understan…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…tal understanding of agile methodologies (Scrum, Kanban, etc.); Understanding of the Software…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Project Management",
+          "audit_type": "correct",
+          "evidence_phrase": "…ll phases of the project; Create overall project management documentation; Communication with the clients…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "bf8dbf46-67d5-5af1-8c78-11ffc294cfc3",
+      "career_role": "QA Automation Engineer",
+      "Position": "Lead Test Automation Engineer (C#)",
+      "audit_items": [
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…d web application - Having a concept of Scrum methodology - Great in 'black box' and 'white…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…and 'white box' testing - both manual and automation testing. Expert in Test Scenarios creation from all lev…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "C#",
+          "audit_type": "correct",
+          "evidence_phrase": "…at least one modern programming language (C#) - Skilled in developing new tools, framewo…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": ".NET",
+          "audit_type": "correct",
+          "evidence_phrase": "…liar with Microsoft Technical Stack (C#, .NET) - Demonstrating Intermediate strong+ English…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…Design and Test Life Cycle Agile Environment, using user stories, providing esti…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "4d972e3c-d5c3-5df9-b08a-472cfa9343d4",
+      "career_role": "Business Analyst",
+      "Position": "Middle Business Analyst",
+      "audit_items": [
+        {
+          "skill": "Business Analysis",
+          "audit_type": "correct",
+          "evidence_phrase": "…en and spoken); - Extensive knowledge of business analysis activities and techniques; -Clear understandin…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…n, proactivity; - Excellent knowledge of JIRA and Confluence. Will be a plus: - Hands-on…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "5d8daaaf-0fa8-5d52-b723-cfd308bb2a83",
+      "career_role": "QA Automation Engineer",
+      "Position": "Middle+ C# Automation QA",
+      "audit_items": [
+        {
+          "skill": "C#",
+          "audit_type": "correct",
+          "evidence_phrase": "…s Automation QA on С#; — experience with C#, Selenium; — technical background; — intermed…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…tomation QA on С#; — experience with C#, Selenium; — technical background; — intermediate level…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Bash",
+          "audit_type": "correct",
+          "evidence_phrase": "…It Will be a plus: — experience with bash; — experience with SQL We offer: — experi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…experience with bash; — experience with SQL We offer: — experienced colleagues who are…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "7752ba78-b00e-5e51-896c-00b25b47ddf5",
+      "career_role": "QA Automation Engineer",
+      "Position": "Middle Java Automation QA",
+      "audit_items": [
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…ominance. We’re looking for a **Middle Java Automation QA** to join a strong team with a we…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "C#",
+          "audit_type": "correct",
+          "evidence_phrase": "…re to analyze the current сustomer’s SSO (C#, IdentityServer v4), implement/configure integr…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…+ years of experience in QA/Testing &amp; Test Automation; - Hands-on experience in Selenium – Java, Cor…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…est Automation; - Hands-on experience in Selenium – Java, Core-Java; - Good knowledge of Rest AP…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "REST API",
+          "audit_type": "correct",
+          "evidence_phrase": "…m – Java, Core-Java; - Good knowledge of Rest API; - Knowledge of UI Automation; - Passion for…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "2091e16e-d878-51bd-be35-8e843a33be62",
+      "career_role": "Data Engineer",
+      "Position": "Middle or Senior Data Engineer",
+      "audit_items": [
+        {
+          "skill": "Google Cloud",
+          "audit_type": "correct",
+          "evidence_phrase": "…ng/architecture/warehousing experience in Google Cloud ● Experience implementing production Google an…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Tableau",
+          "audit_type": "correct",
+          "evidence_phrase": "…ntegration ● Familiarity with tools like Tableau, Looker, Data Studio, Power BI or other cloud d…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Looker",
+          "audit_type": "correct",
+          "evidence_phrase": "…n ● Familiarity with tools like Tableau, Looker, Data Studio, Power BI or other cloud data/BI…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Power BI",
+          "audit_type": "correct",
+          "evidence_phrase": "…tools like Tableau, Looker, Data Studio, Power BI or other cloud data/BI tools ● Proficient in…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…her cloud data/BI tools ● Proficient in Python Requirements: ● Knowledge with ETS, SQL, GCP,…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…hon Requirements: ● Knowledge with ETS, SQL, GCP, Spark. ... ● Knowledge of Business Intel…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Apache Spark",
+          "audit_type": "correct",
+          "evidence_phrase": "…rements: ● Knowledge with ETS, SQL, GCP, Spark. ... ● Knowledge of Business Intelligence and…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Google BigQuery",
+          "audit_type": "correct",
+          "evidence_phrase": "…ollowing technologies: ○ Experience with BigQuery ML ○ Container-based virtualization (Docker)…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Machine Learning",
+          "audit_type": "correct",
+          "evidence_phrase": "…technologies: ○ Experience with BigQuery ML ○ Container-based virtualization (Docker) ○ D…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Docker",
+          "audit_type": "correct",
+          "evidence_phrase": "…ery ML ○ Container-based virtualization (Docker) ○ Distributed pub/sub frameworks (Kafka), dis…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Apache Kafka",
+          "audit_type": "correct",
+          "evidence_phrase": "…ocker) ○ Distributed pub/sub frameworks (Kafka), distributed high-throughput key-value storag…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Redis",
+          "audit_type": "correct",
+          "evidence_phrase": "…buted high-throughput key-value storage (Redis) ○ Big data storage (Cassandra, Redshift, BigQ…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "PostgreSQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…○ High-concurrency relational databases (PostgreSQL) ○ Distributed log collection and analysis ●…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "7970dfb7-677e-5bde-94e7-8997cb1b132f",
+      "career_role": "Project Manager",
+      "Position": "Middle Project Manager",
+      "audit_items": [
+        {
+          "skill": "Project Management",
+          "audit_type": "correct",
+          "evidence_phrase": "…sfully managing projects - Experience in project management during all stages of the life cycle - Experien…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…s and foreign clients - Experience using Agile methodologies - Experience with clients: build…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "1803fde5-e439-5c08-a2f4-262ad223956b",
+      "career_role": "Project Manager",
+      "Position": "Middle Project Manager",
+      "audit_items": [
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…future); Participating and facilitating Scrum events; Communicate with the client; Define a…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "JavaScript",
+          "audit_type": "correct",
+          "evidence_phrase": "…QAs. PROJECT TECHNOLOGIES Front-end - JavaScript (ES6), Typescript, Angular8, Angular material,…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "TypeScript",
+          "audit_type": "correct",
+          "evidence_phrase": "…CHNOLOGIES Front-end - JavaScript (ES6), Typescript, Angular8, Angular material, rxjs, ngrx. Back-e…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Angular",
+          "audit_type": "correct",
+          "evidence_phrase": "…- JavaScript (ES6), Typescript, Angular8, Angular material, rxjs, ngrx. Back-end - Node.js (Expre…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Node.js",
+          "audit_type": "correct",
+          "evidence_phrase": "…Angular material, rxjs, ngrx. Back-end - Node.js (Express), MongoDB, Mongoose, AWS. WORK SCHE…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Express.js",
+          "audit_type": "correct",
+          "evidence_phrase": "…material, rxjs, ngrx. Back-end - Node.js (Express), MongoDB, Mongoose, AWS. WORK SCHEDULE Ful…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "MongoDB",
+          "audit_type": "correct",
+          "evidence_phrase": "…rxjs, ngrx. Back-end - Node.js (Express), MongoDB, Mongoose, AWS. WORK SCHEDULE Full-time wor…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…d - Node.js (Express), MongoDB, Mongoose, AWS. WORK SCHEDULE Full-time working day in our…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "a38e75f8-8add-50b0-88db-f70905bd42df",
+      "career_role": "QA Automation Engineer",
+      "Position": "Miiddle QA engineer",
+      "audit_items": [
+        {
+          "skill": "JavaScript",
+          "audit_type": "correct",
+          "evidence_phrase": "…for testing mobile and web applications (JavaScript, NodeJS, Dart (Flutter)); - Experience with te…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Node.js",
+          "audit_type": "correct",
+          "evidence_phrase": "…mobile and web applications (JavaScript, NodeJS, Dart (Flutter)); - Experience with testing fr…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Flutter",
+          "audit_type": "correct",
+          "evidence_phrase": "…b applications (JavaScript, NodeJS, Dart (Flutter)); - Experience with testing frameworks (Mocha…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jest",
+          "audit_type": "correct",
+          "evidence_phrase": "…xperience with testing frameworks (Mocha, Jest, Cypress, Selenium); - Ability to assess the l…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Cypress",
+          "audit_type": "correct",
+          "evidence_phrase": "…nce with testing frameworks (Mocha, Jest, Cypress, Selenium); - Ability to assess the level of c…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…testing frameworks (Mocha, Jest, Cypress, Selenium); - Ability to assess the level of coverage of…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "6f483e8c-d1ad-5f5b-856b-7565b0ebf931",
+      "career_role": "Project Manager",
+      "Position": "Outstaff Manager",
+      "audit_items": []
+    },
+    {
+      "record_id": "7f5374fc-ca6e-5d6b-a36e-678cf6220e8c",
+      "career_role": "Business Analyst",
+      "Position": "Product Analyst",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…ice. Skills and Qualifications Strong SQL with experience in querying large, complex data…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Microsoft Excel",
+          "audit_type": "correct",
+          "evidence_phrase": "…of verbal and written English a must; MS Excel – Master level; BA/B.Sc. in Statistics / Math…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "015f470d-c2bd-537a-95d2-186479e5f820",
+      "career_role": "Product Manager",
+      "Position": "Product Manager",
+      "audit_items": [
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…t owner +3 years. -In-depth knowledge of Agile methodologies. -Strong analytical and problem-…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…ng product backlog items. -Assisting the scrum/product development team to meet the objectives…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "853e24b7-29fd-5f8d-888c-9165aec3fd29",
+      "career_role": "Product Manager",
+      "Position": "Product Manager / Head of Product",
+      "audit_items": [
+        {
+          "skill": "Product Management",
+          "audit_type": "correct",
+          "evidence_phrase": "First product management hire responsible for designing and executing ou…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Artificial Intelligence",
+          "audit_type": "correct",
+          "evidence_phrase": "…ventures. Hello, future Rooshmate. **AI HOUSE CLUB** is a part of the business ecosyste…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Machine Learning",
+          "audit_type": "correct",
+          "evidence_phrase": "…ompany that creates and invests in AI and ML-focused projects, aiming to build Ukraine as th…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "43d1fd5d-0c7d-518d-8d44-3c0d8bcb342e",
+      "career_role": "Project Manager",
+      "Position": "Project Manager",
+      "audit_items": [
+        {
+          "skill": "Project Management",
+          "audit_type": "correct",
+          "evidence_phrase": "…ms. **Requirements:** 1,5-3 years of project management experience in technical projects Comfortable…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "f6e9eb8c-b8ef-526b-9899-f5b74e0e3730",
+      "career_role": "Project Manager",
+      "Position": "Project Manager",
+      "audit_items": [
+        {
+          "skill": "Project Management",
+          "audit_type": "correct",
+          "evidence_phrase": "…We are waiting from you: Knowledge of project management frameworks and tools, e.g., Scrum, Kanban, XP.…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…ct management frameworks and tools, e.g., Scrum, Kanban, XP. Knowledge of SDLC and basic Scrum…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…t concepts; Basic knowledge on PM tools (Jira, Confluence, etc.) Experience in identifying t…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Business Analysis",
+          "audit_type": "correct",
+          "evidence_phrase": "…eatures in simple and clear terms; Basic business analysis skills (requirements analysis, preparation of t…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "d9bf3cff-b58c-5dea-a415-e60cb060221c",
+      "career_role": "Project Manager",
+      "Position": "Project manager /Business Analyst",
+      "audit_items": [
+        {
+          "skill": "Project Management",
+          "audit_type": "correct",
+          "evidence_phrase": "This position is a mix of classic project management and business analytics + customer support so it…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…heir results to the Stories/Documentation/JIRA Responsibilities: -Responsible for ongoing…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Business Analysis",
+          "audit_type": "correct",
+          "evidence_phrase": "…nce in project development management and business analysis -Knowledge of Agile-Family SDLC -Be familiar…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…ment and business analysis -Knowledge of Agile-Family SDLC -Be familiar with LEAN Startup App…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "8ae1c1d8-9aad-5341-ad38-f5cf2ef76409",
+      "career_role": "Data Engineer",
+      "Position": "Python Data Engineer",
+      "audit_items": [
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "The focus of this project is to create a Python-based reporting platform that uses SQL tables,…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…Python-based reporting platform that uses SQL tables, flat files, and various other data sour…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Apache Kafka",
+          "audit_type": "correct",
+          "evidence_phrase": "…s then shared with other applications via Kafka. *What will you do: — Create a structured O…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…database technologies; — Experience with agile work methodologies, testing and CI/CD; — Knowl…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Linux",
+          "audit_type": "correct",
+          "evidence_phrase": "…testing and CI/CD; — Knowledge of basic Linux commands; — Excellent communication, organizat…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "38c1a68e-02a2-5725-846a-06547c597d84",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Automation Engineer",
+      "audit_items": [
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "**Required skills:** • To write computer Java code and scripts, Selenide, Maven, TestNG; • B…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Linux",
+          "audit_type": "correct",
+          "evidence_phrase": "…ide, Maven, TestNG; • Basic knowledge of Linux administration; • Experience in writing clear,…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…ong communication skills; • Knowledge of SQL; • Experience working in an Agile/Scrum develo…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…ledge of SQL; • Experience working in an Agile/Scrum development process; • Experience with p…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…of SQL; • Experience working in an Agile/Scrum development process; • Experience with perform…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…plus. **As a plus:** • Experience with Python script language; • Experience with Robot Frame…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "d7fb3f9d-ee1f-5ec7-b757-a8bd2c727f17",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Automation Engineer",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…r** to write automation tests and execute SQL-based testing scripts for our GPU-powered SQL a…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…ntegration process. You will be part of a scrum team within our R&D group. **Salary up to 4,5k…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Kubernetes",
+          "audit_type": "correct",
+          "evidence_phrase": "…to 4,5k$. Remote** Our architecture is K8S based, so we need to have a strong execution of…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…gression tests using code as part of the automated testing framework ● Monitor/Test Linux resource alloca…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Linux",
+          "audit_type": "correct",
+          "evidence_phrase": "…tomated testing framework ● Monitor/Test Linux resource allocations (Memory, CPU, Limits, Etc.…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…tools and processes ● Experience in (or Java) ● Good familiarity with Linux OS ● Proven wo…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "43dd1e73-bbb1-54e0-89c8-467d7c44ab8a",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Automation Engineer (Python)",
+      "audit_items": [
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…US. - We are fully remote and we work by Agile / Scrum methodology. - We are free from strict…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…e are fully remote and we work by Agile / Scrum methodology. - We are free from strict deadlin…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…experience writing and executing tests in Python. - Previous experience in manual testing. - A…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…ng. - Acquaintance with Robot Framework, Selenium and Appium. - Experience and knowledge in writ…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "iOS",
+          "audit_type": "correct",
+          "evidence_phrase": "…sts for both web and mobile applications (iOS and Android). Nice to have: -Good English…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Android",
+          "audit_type": "correct",
+          "evidence_phrase": "…both web and mobile applications (iOS and Android). Nice to have: -Good English -4+ years of…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "REST API",
+          "audit_type": "correct",
+          "evidence_phrase": "…ecurity. -Knowledge of HTTP protocol and RESTful APIs. What you will do: - Maintain, extend and d…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…to date (TestRail). - Perform manual and automated testing before each release, track issues, sign off rel…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "b1fb07f2-f3dc-548a-9c9a-0783e435a2d6",
+      "career_role": "QA Automation Engineer",
+      "Position": "QA Engineer",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…or Appium or UFT Mobile • Knowledge of SQL We offer: • Competitive compensation de…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "111f8555-e265-50b7-88f1-bf4fa505be78",
+      "career_role": "System Administrator",
+      "Position": "Rinf Tech: Transition Manager",
+      "audit_items": []
+    },
+    {
+      "record_id": "dfdb899a-fecd-5459-b77a-0c7d7b398215",
+      "career_role": "Business Analyst",
+      "Position": "Salesforce Consultant",
+      "audit_items": []
+    },
+    {
+      "record_id": "f8474b1f-de98-5826-b497-0a9368081f6c",
+      "career_role": "QA Automation Engineer",
+      "Position": "SDET (Java)",
+      "audit_items": [
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…: - 5+ years of experience in software test automation or application development; - 3+ years of expe…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…velopment; - 3+ years of experience with Java; - Experience with design and test development…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "JUnit",
+          "audit_type": "correct",
+          "evidence_phrase": "…en source test frameworks (e.g. Cucumber, JUnit, Selenium, Jmeter); - Experience with unit, in…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…ce test frameworks (e.g. Cucumber, JUnit, Selenium, Jmeter); - Experience with unit, integration,…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "….g. TestRail, Zephyr); - Experience with SQL language and ability to verify results in the d…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Git",
+          "audit_type": "correct",
+          "evidence_phrase": "…ify results in the database directly; - „Git, git-flow, pull request, code review” – are the…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…words/tools for you; - Understanding of Agile development (Scrum, Kanban), TDD, Continuous In…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…u; - Understanding of Agile development (Scrum, Kanban), TDD, Continuous Integration, Continuo…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jenkins",
+          "audit_type": "correct",
+          "evidence_phrase": "…us Improvement, Continuous Delivery (with Jenkins, Bamboo, Terraform, CodePipeline, Kubernetes or…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Terraform",
+          "audit_type": "correct",
+          "evidence_phrase": "…ontinuous Delivery (with Jenkins, Bamboo, Terraform, CodePipeline, Kubernetes or Docker); - Upper-…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Kubernetes",
+          "audit_type": "correct",
+          "evidence_phrase": "…Jenkins, Bamboo, Terraform, CodePipeline, Kubernetes or Docker); - Upper-intermediate English - Pa…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Docker",
+          "audit_type": "correct",
+          "evidence_phrase": "…o, Terraform, CodePipeline, Kubernetes or Docker); - Upper-intermediate English - Passion for…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "f9004926-444e-56dc-b511-0196d4270664",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior AQA Engineer (Python)",
+      "audit_items": [
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…n ** The QA Automation Engineer will use agile methodologies and collaborate with cross-functi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "…search, recommend and implement tools for test automation. Identify improvements opportunities (proacti…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…gramming languages and frameworks such as Python (Django), Javascript, React - typescript, JSON…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Django",
+          "audit_type": "correct",
+          "evidence_phrase": "…languages and frameworks such as Python (Django), Javascript, React - typescript, JSON, Appium…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "JavaScript",
+          "audit_type": "correct",
+          "evidence_phrase": "…s and frameworks such as Python (Django), Javascript, React - typescript, JSON, Appium, Expresso Pr…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "React",
+          "audit_type": "correct",
+          "evidence_phrase": "…orks such as Python (Django), Javascript, React - typescript, JSON, Appium, Expresso Protracto…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "TypeScript",
+          "audit_type": "correct",
+          "evidence_phrase": "…h as Python (Django), Javascript, React - typescript, JSON, Appium, Expresso Protractor, Selenium W…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…ript, JSON, Appium, Expresso Protractor, Selenium Webdriver, Flask, Node.js, CSS, HTML or other C…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Flask",
+          "audit_type": "correct",
+          "evidence_phrase": "…Expresso Protractor, Selenium Webdriver, Flask, Node.js, CSS, HTML or other Cloud/Mobile testi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Node.js",
+          "audit_type": "correct",
+          "evidence_phrase": "…so Protractor, Selenium Webdriver, Flask, Node.js, CSS, HTML or other Cloud/Mobile testing langua…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "CSS",
+          "audit_type": "correct",
+          "evidence_phrase": "…ctor, Selenium Webdriver, Flask, Node.js, CSS, HTML or other Cloud/Mobile testing languages.…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "HTML",
+          "audit_type": "correct",
+          "evidence_phrase": "…Selenium Webdriver, Flask, Node.js, CSS, HTML or other Cloud/Mobile testing languages. 1+ y…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Git",
+          "audit_type": "correct",
+          "evidence_phrase": "…e with source code repository tools using Git, Bitbucket, etc. Experience designing and cre…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "React Native",
+          "audit_type": "correct",
+          "evidence_phrase": "…ed tests on a cross-platform environment (React Native). REST API testing using Postman or similar t…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "REST API",
+          "audit_type": "correct",
+          "evidence_phrase": "…ss-platform environment (React Native). REST API testing using Postman or similar tools Experi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Postman",
+          "audit_type": "correct",
+          "evidence_phrase": "…(React Native). REST API testing using Postman or similar tools Experience with SOAP APIs…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jenkins",
+          "audit_type": "correct",
+          "evidence_phrase": "…Experience with SOAP APIs CI/CD tools: Jenkins, Docker, AWS CodeBuild, AWS CodePipeline. Per…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Docker",
+          "audit_type": "correct",
+          "evidence_phrase": "…ce with SOAP APIs CI/CD tools: Jenkins, Docker, AWS CodeBuild, AWS CodePipeline. Performance…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…SOAP APIs CI/CD tools: Jenkins, Docker, AWS CodeBuild, AWS CodePipeline. Performance test…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "16850b1b-089a-5cda-a611-ddd91ec52894",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior AQA (Python)",
+      "audit_items": [
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…ngineer with 4+ AQA in Data projects with Python and Flutter; 2. Good experience and knowledge…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Flutter",
+          "audit_type": "correct",
+          "evidence_phrase": "…h 4+ AQA in Data projects with Python and Flutter; 2. Good experience and knowledge of programmi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…gies and techniques; 4. Understanding of Agile methodologies and engineering practices; 5. Pa…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Kubernetes",
+          "audit_type": "correct",
+          "evidence_phrase": "…n up to result visualization and reports, Kubernetes, AWS. 7. Good knowledge of 4 OSs: Android, iOS…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…lt visualization and reports, Kubernetes, AWS. 7. Good knowledge of 4 OSs: Android, iOS, Mac…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Android",
+          "audit_type": "correct",
+          "evidence_phrase": "…rnetes, AWS. 7. Good knowledge of 4 OSs: Android, iOS, Mac interface, and Windows. Responsibi…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "iOS",
+          "audit_type": "correct",
+          "evidence_phrase": "…WS. 7. Good knowledge of 4 OSs: Android, iOS, Mac interface, and Windows. Responsibilitie…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "58d5f1c2-c081-59f9-817d-63eef15767ad",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior Automation QA",
+      "audit_items": [
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…al and utility documentation ● Work with Jira (issues creation/verification) Requirements:…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "REST API",
+          "audit_type": "correct",
+          "evidence_phrase": "…automation frameworks ● Experience with REST API testing tools ● Experience with mobile testing…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Selenium",
+          "audit_type": "correct",
+          "evidence_phrase": "…● Experience with tools for GUI testing (Selenium, Cypress and etc.) ● Experience with performan…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Cypress",
+          "audit_type": "correct",
+          "evidence_phrase": "…nce with tools for GUI testing (Selenium, Cypress and etc.) ● Experience with performance testin…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "9eb37cd0-1b7f-5d13-9114-476e6d03970d",
+      "career_role": "Data Analyst",
+      "Position": "Senior Data Analyst",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…ills with expert-level work experience on SQL. - BI Tool experience, analysis, creating dash…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…s, creating dashboards - Experience with Python or JavaScript - Good communication skills and…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "JavaScript",
+          "audit_type": "correct",
+          "evidence_phrase": "…g dashboards - Experience with Python or JavaScript - Good communication skills and ability to int…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Machine Learning",
+          "audit_type": "correct",
+          "evidence_phrase": "…athematical and analytical models include machine learning algorithms, building end-to-end ETL pipelines…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "ETL",
+          "audit_type": "correct",
+          "evidence_phrase": "…learning algorithms, building end-to-end ETL pipelines - Working with probabilistic quantit…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "352385cc-d015-5496-8b7c-c32bc567460c",
+      "career_role": "Data Engineer",
+      "Position": "Senior Data Engineer",
+      "audit_items": [
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…e in software engineering — Expertise in SQL and high-level languages such as Python — Expe…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…e in SQL and high-level languages such as Python — Expertise in relational databases (MySQL, Po…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "MySQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…hon — Expertise in relational databases (MySQL, PostgreSQL, Microsoft SQL, etc.) — Experience…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "PostgreSQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…Expertise in relational databases (MySQL, PostgreSQL, Microsoft SQL, etc.) — Experience with leadin…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Microsoft Azure",
+          "audit_type": "correct",
+          "evidence_phrase": "…nce providing subject matter expertise on Azure, AWS, or Google Cloud — Experience working wit…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…viding subject matter expertise on Azure, AWS, or Google Cloud — Experience working with big…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Google Cloud",
+          "audit_type": "correct",
+          "evidence_phrase": "…ubject matter expertise on Azure, AWS, or Google Cloud — Experience working with big data technologie…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Snowflake",
+          "audit_type": "correct",
+          "evidence_phrase": "…orking with big data technologies such as Snowflake, Redshift, or Synapse — Ability to create and…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Apache Airflow",
+          "audit_type": "correct",
+          "evidence_phrase": "…ity to create and maintain workflows with Airflow DAGs Responsibilities: — Developing and m…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "30f553fe-4377-5ad1-adbd-33b7d58cb277",
+      "career_role": "System Administrator",
+      "Position": "Senior IT infrastucture engineer",
+      "audit_items": [
+        {
+          "skill": "Linux",
+          "audit_type": "correct",
+          "evidence_phrase": "…ience in managing server systems based on Linux, Windows • Experience in deploying and adm…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "MySQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…Cisco, MikroTik, etc. • Knowledge of MySQL, MS SQL, and PostgreSQL DBMS administration pri…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…roTik, etc. • Knowledge of MySQL, MS SQL, and PostgreSQL DBMS administration principles…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "PostgreSQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…c. • Knowledge of MySQL, MS SQL, and PostgreSQL DBMS administration principles • Experienc…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Docker",
+          "audit_type": "correct",
+          "evidence_phrase": "…thers • Understanding containers and Docker containerization • Understanding the CI/CD…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "b19099ca-6637-56dc-a640-30d995d2a5d7",
+      "career_role": "Product Manager",
+      "Position": "Senior Product Manager (Solutions)",
+      "audit_items": [
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…ween 8-16 people or similar experience - Scrum & Agile based B2B SaaS product management/owner…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…6 people or similar experience - Scrum & Agile based B2B SaaS product management/ownership exp…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Product Management",
+          "audit_type": "correct",
+          "evidence_phrase": "…xperience - Scrum & Agile based B2B SaaS product management/ownership experience - Can work independently…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "18b2c592-b8ad-52dd-b565-75c504e63966",
+      "career_role": "Product Manager",
+      "Position": "Senior Product Owner",
+      "audit_items": [
+        {
+          "skill": "PHP",
+          "audit_type": "correct",
+          "evidence_phrase": "…ournalists. **Tech stack:** Backend: PHP Symfony; Frontend: Next.js Framework (React);…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Next.js",
+          "audit_type": "correct",
+          "evidence_phrase": "…tack:** Backend: PHP Symfony; Frontend: Next.js Framework (React); Mobile App: React-Native;…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "React",
+          "audit_type": "correct",
+          "evidence_phrase": "…HP Symfony; Frontend: Next.js Framework (React); Mobile App: React-Native; Infrastructure: D…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "React Native",
+          "audit_type": "correct",
+          "evidence_phrase": "…: Next.js Framework (React); Mobile App: React-Native; Infrastructure: Docker, AWS( ECS, Fargate, s3…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Docker",
+          "audit_type": "correct",
+          "evidence_phrase": "…obile App: React-Native; Infrastructure: Docker, AWS( ECS, Fargate, s3, ALB, ES, EC, SSM ) CI/C…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "AWS",
+          "audit_type": "correct",
+          "evidence_phrase": "…p: React-Native; Infrastructure: Docker, AWS( ECS, Fargate, s3, ALB, ES, EC, SSM ) CI/CD Git…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "GitLab",
+          "audit_type": "correct",
+          "evidence_phrase": "…CS, Fargate, s3, ALB, ES, EC, SSM ) CI/CD GitLab, CloudFlare as WAF, and CDN. **Responsibilit…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "f17ee0a4-232a-5098-a84b-028decf41f71",
+      "career_role": "QA Automation Engineer",
+      "Position": "Senior QA Engineer",
+      "audit_items": [
+        {
+          "skill": "Test Automation",
+          "audit_type": "correct",
+          "evidence_phrase": "**Required skills:** Hands-on automation testing experience (java, rest-assured, selenide) Deep…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…Hands-on automation testing experience (java, rest-assured, selenide) Deep root cause analy…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "REST API",
+          "audit_type": "correct",
+          "evidence_phrase": "…oot cause analysis Experience in web and REST API testing Understanding of client-server archite…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "SQL",
+          "audit_type": "correct",
+          "evidence_phrase": "…echniques Work experience with DBs: both SQL and no-SQL (MongoDB, Redis, etc) Understanding…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "MongoDB",
+          "audit_type": "correct",
+          "evidence_phrase": "…experience with DBs: both SQL and no-SQL (MongoDB, Redis, etc) Understanding of Agile principles…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Redis",
+          "audit_type": "correct",
+          "evidence_phrase": "…e with DBs: both SQL and no-SQL (MongoDB, Redis, etc) Understanding of Agile principles Exper…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…L (MongoDB, Redis, etc) Understanding of Agile principles Experience with Jira/Confluence Wo…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…ding of Agile principles Experience with Jira/Confluence Work experience with Git — Git Flow…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Git",
+          "audit_type": "correct",
+          "evidence_phrase": "…ith Jira/Confluence Work experience with Git — Git Flow understanding **Responsibilities:…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "87a42208-bc8e-5940-89c1-3635ca55b058",
+      "career_role": "Project Manager",
+      "Position": "Senior Scrum Master",
+      "audit_items": [
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "**POSITION** We are currently seeking a Scrum Master II to support our Engineering & Product…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…opportunity to contribute to our growing Agile practices across the company, coming up with in…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Jira",
+          "audit_type": "correct",
+          "evidence_phrase": "…continuous improvement Proficiency with JIRA, Confluence or similar tool Strong Proficienc…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "b557713d-fbf5-5ea2-a608-809c3f8499fa",
+      "career_role": "Data Engineer",
+      "Position": "Sr. Sensor Simulation Engineer",
+      "audit_items": [
+        {
+          "skill": "C++",
+          "audit_type": "correct",
+          "evidence_phrase": "…ors and data Deep 3D geometry knowledge C++ and Python skills **Nice to have**: Exper…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Python",
+          "audit_type": "correct",
+          "evidence_phrase": "…data Deep 3D geometry knowledge C++ and Python skills **Nice to have**: Experience with…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "eb36f910-3d42-519c-bb6f-14865306eede",
+      "career_role": "Project Manager",
+      "Position": "Technical Project Manager",
+      "audit_items": [
+        {
+          "skill": "Project Management",
+          "audit_type": "correct",
+          "evidence_phrase": "…- **3+** **years** of proven successful project management experience; - Technical background is a must (…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Agile",
+          "audit_type": "correct",
+          "evidence_phrase": "…fferent project management methodologies: Agile, Scrum, Kanban, SAFe, Waterfall; - Experience…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Scrum",
+          "audit_type": "correct",
+          "evidence_phrase": "…project management methodologies: Agile, Scrum, Kanban, SAFe, Waterfall; - Experience working…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    },
+    {
+      "record_id": "8b853223-7ebe-5382-90d4-d9cab8f16757",
+      "career_role": "System Administrator",
+      "Position": "Technical Support Engineer",
+      "audit_items": [
+        {
+          "skill": "Linux",
+          "audit_type": "correct",
+          "evidence_phrase": "…: - Solid experience with MS Windows and Linux environment. - System administration/DevOps ex…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        },
+        {
+          "skill": "Java",
+          "audit_type": "correct",
+          "evidence_phrase": "…English. - Knowledge and experience with Java and some scripting language is a plus. - Abili…",
+          "reason": "The description explicitly names this skill in a relevant requirement, responsibility, or technology context."
+        }
+      ]
+    }
+  ]
+}

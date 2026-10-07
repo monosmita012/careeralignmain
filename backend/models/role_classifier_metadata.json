@@ -1,0 +1,41 @@
+{
+  "text_column": "text",
+  "target_column": "career_role",
+  "class_order": [
+    "Data Analyst",
+    "Data Engineer",
+    "Business Analyst",
+    "Project Manager",
+    "Product Manager",
+    "QA Automation Engineer",
+    "System Administrator"
+  ],
+  "vectorizer": {
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true
+  },
+  "classifier": "sklearn.naive_bayes.MultinomialNB",
+  "train_rows": 16956,
+  "test_rows": 4239,
+  "accuracy": 0.6112290634583628,
+  "macro": {
+    "precision": 0.7378624523581159,
+    "recall": 0.34593779287537546,
+    "f1": 0.3208823890136764
+  },
+  "weighted": {
+    "precision": 0.73062680989927,
+    "recall": 0.6112290634583628,
+    "f1": 0.5198755765635193
+  },
+  "majority_class": "QA Automation Engineer",
+  "majority_baseline_accuracy": 0.3323897145553196,
+  "scikit_learn_version": "1.9.1"
+}
